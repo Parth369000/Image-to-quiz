@@ -1,0 +1,25 @@
+{
+  "exam": "Canada Millwright",
+  "question_number": 1,
+  "question": "hat is the number of teeth ondrive ~ -; 1. 90 teeth\near (Input) if Driven gear (Output)      '\nhas 90 teeth to maintain the speed        \u00bb* 12. 180 teeth\nratio of 2:1                                       i\n- 3. 100 teeth",
+  "options": [
+    {
+      "key": "1",
+      "text": "\u00bb* 12. 180 teeth"
+    },
+    {
+      "key": "2",
+      "text": "?"
+    },
+    {
+      "key": "3",
+      "text": "100 teeth"
+    },
+    {
+      "key": "4",
+      "text": "45 teeth"
+    }
+  ],
+  "source": "ocr_gemini_batched_v3",
+  "confidence": "medium"
+}
