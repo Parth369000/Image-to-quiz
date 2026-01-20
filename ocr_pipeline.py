@@ -7,19 +7,13 @@ import json
 import re
 import time
 import random
-from google import genai
-from google.genai import types
+# from google import genai  <-- REMOVED
+# from google.genai import types <-- REMOVED
 
-# ------------------ GEMINI CONFIG ------------------
+# ------------------ GEMINI/VERTEX CONFIG ------------------
+# Note: Replaced with Vertex AI above.
 # Security: Key fetched from Environment Variable
-GENAI_API_KEY = os.getenv("GEMINI_API_KEY")
-
-if not GENAI_API_KEY:
-    # Fallback/Error for testing purposes if not set
-    print("WARNING: GEMINI_API_KEY not found in environment.")
-    sys.exit(1)
-
-client = genai.Client(api_key=GENAI_API_KEY)
+# GENAI_API_KEY = ... (Removed in favor of Vertex AI)
 
 # Global throttle tracker
 LAST_CALL = 0
@@ -120,7 +114,29 @@ def enforce_four_options(parsed_options):
     return final_options
 
 # ------------------ LLM BATCH CLEANUP ------------------
+# ------------------ GEMINI CONFIG ------------------
+from google import genai
+from google.genai import types
+
+# Security: Key fetched from Environment Variable
+GENAI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyD4AEX1L-rEJqXg9Nw6VM1U32GQyo1UP5A")
+
+if not GENAI_API_KEY:
+    # Fallback/Error for testing purposes if not set
+    print("WARNING: GEMINI_API_KEY not found. Please set 'GEMINI_API_KEY'.")
+    # sys.exit(1) # Allow fallback to pure OCR
+
+try:
+    client = genai.Client(api_key=GENAI_API_KEY)
+except Exception as e:
+    print(f"GenAI Init Error: {e}")
+    client = None
+
+# ------------------ LLM BATCH CLEANUP ------------------
 def llm_fix_batch(question, options):
+    if not client:
+        return {"question": question, "options": options}
+        
     throttle_api()
     
     payload = {
@@ -143,23 +159,34 @@ INPUT:
 {json.dumps(payload, indent=2)}
 """
 
-    try:
-        # Single attempt, no retry loop
-        response = client.models.generate_content(
-            model="models/gemini-3-pro-preview",
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json"
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            # Using the standard model
+            response = client.models.generate_content(
+                model="models/gemini-2.5-flash", 
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json"
+                )
             )
-        )
 
-        if response.text:
-             # Clean potential markdown fences
-            cleaned_text = response.text.replace("```json", "").replace("```", "").strip()
-            return json.loads(cleaned_text)
-        
-    except Exception as e:
-        print(f"Gemini API Error: {e}")
+            if response.text:
+                 # Clean potential markdown fences
+                cleaned_text = response.text.replace("```json", "").replace("```", "").strip()
+                return json.loads(cleaned_text)
+            
+        except Exception as e:
+            err_str = str(e)
+            if "503" in err_str or "overloaded" in err_str.lower() or "429" in err_str:
+                if attempt < max_retries - 1:
+                    wait_time = 2 * (attempt + 1)
+                    print(f"Gemini Busy/Quota. Retrying in {wait_time}s...")
+                    time.sleep(wait_time)
+                    continue
+            
+            print(f"Gemini API Error: {e}")
+            break
 
     # Fallback
     return {
@@ -173,8 +200,24 @@ def main(img_path, out_file):
     img = Image.open(img_path).convert("RGB")
     
     # 1. CROPS
-    q_box = (50, 50, 1000, 350)
-    o_box = (700, 150, img.width-50, 750)
+    # 1. CROPS (Dynamic based on 1920x1080 reference)
+    w, h = img.size
+    
+    # Question: Top-Left roughly 50% width, 40% height
+    q_box = (
+        int(w * 0.02),  # x1 (2%)
+        int(h * 0.05),  # y1 (5%)
+        int(w * 0.55),  # x2 (55%)
+        int(h * 0.40)   # y2 (40%)
+    )
+    
+    # Options: Right side, overlapping slightly vertically
+    o_box = (
+        int(w * 0.30),  # x1 (30%) - Adjusted left to catch "1."
+        int(h * 0.12),  # y1 (12%) - Raised top to catch First Option
+        int(w * 0.98),  # x2 (98%)
+        int(h * 0.85)   # y2 (85%)
+    )
     
     # 2. OCR
     print("Running OCR...")
