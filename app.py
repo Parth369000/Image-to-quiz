@@ -4,8 +4,11 @@ import os
 import json
 import uuid
 import datetime
+from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+
+load_dotenv()
 
 app = Flask(__name__)
 # Enable CORS so frontend (localhost:5173) can talk to backend (localhost:5000)
@@ -14,7 +17,7 @@ CORS(app)
 # Config
 UPLOAD_FOLDER = 'uploads'
 QUIZ_FOLDER = 'public/quizzes'
-API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyD4AEX1L-rEJqXg9Nw6VM1U32GQyo1UP5A")
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 # Ensure dirs exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -96,8 +99,18 @@ def extract_quiz_from_pdf(pdf_path):
         """
         
         # Retry logic with model fallback to handle 429/503 errors
-        max_retries = 3
-        models_to_try = ["models/gemini-2.5-flash", "models/gemini-1.5-flash", "models/gemini-pro"]
+        models_to_try = [
+            "models/gemini-3-flash",
+            "models/gemini-2.5-flash",
+            "models/gemini-2.5-flash-lite",
+            "models/gemma-3-27b",
+            "models/gemma-3-12b",
+            "models/gemma-3-4b",
+            "models/gemma-3-2b",
+            "models/gemma-3-1b",
+            "models/gemini-robotics-er-1.5-preview"
+        ]
+        max_retries = len(models_to_try)
         
         import time
         
@@ -214,4 +227,4 @@ def list_quizzes():
     return jsonify(quizzes)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)

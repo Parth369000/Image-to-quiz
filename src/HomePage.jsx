@@ -27,6 +27,9 @@ const HomePage = ({ onQuizSelect }) => {
         const file = event.target.files[0];
         if (!file) return;
 
+        // Reset the input value so the same file can be selected again if needed
+        event.target.value = null;
+
         if (file.type !== 'application/pdf') {
             setError("Please upload a PDF file.");
             return;

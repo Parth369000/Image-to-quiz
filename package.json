@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000I\u0000m\u0000a\u0000g\u0000e\u0000-\u0000t\u0000o\u0000-\u0000q\u0000u\u0000i\u0000z\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
