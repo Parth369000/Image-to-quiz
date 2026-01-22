@@ -258,24 +258,45 @@ def upload_files():
         'title': final_quiz['quiz_title']
     })
 
+
+
 @app.route('/quizzes', methods=['GET'])
 def list_quizzes():
     quizzes = []
     if os.path.exists(QUIZ_FOLDER):
         for f in os.listdir(QUIZ_FOLDER):
-            # Only list the main merged files (IDs usually 8 chars) that are not _questions or _answers
-            if f.endswith('.json') and '_questions' not in f and '_answers' not in f:
+            # Only list JSON files
+            if f.endswith('.json'):
+                # Exclude internal _questions/_answers files if they follow that pattern
+                # (Assuming legacy files don't have these suffixes or we want them if they are standalone)
+                if '_questions' in f or '_answers' in f:
+                    continue
+                    
                 try:
-                    with open(os.path.join(QUIZ_FOLDER, f), 'r', encoding='utf-8') as qf:
+                    path = os.path.join(QUIZ_FOLDER, f)
+                    with open(path, 'r', encoding='utf-8') as qf:
                         data = json.load(qf)
-                        quizzes.append({
-                            'id': data.get('id', f.replace('.json', '')),
-                            'title': data.get('quiz_title', 'Untitled Quiz'),
-                            'total_questions': data.get('total_questions', 0),
-                            'created_at': data.get('created_at', ''),
-                            'filename': data.get('filename', f)
-                        })
-                except:
+                        
+                        # Handle Legacy Format (List of objects)
+                        if isinstance(data, list):
+                            quizzes.append({
+                                'id': f.replace('.json', ''),
+                                'title': f.replace('.json', '').replace('_', ' ').title(),
+                                'total_questions': len(data),
+                                'created_at': datetime.datetime.fromtimestamp(os.path.getmtime(path)).isoformat(),
+                                'filename': f
+                            })
+                        # Handle New Format (Dictionary with specific keys)
+                        elif isinstance(data, dict):
+                            quizzes.append({
+                                'id': data.get('id', f.replace('.json', '')),
+                                'title': data.get('quiz_title', 'Untitled Quiz'),
+                                'total_questions': data.get('total_questions', 0),
+                                'created_at': data.get('created_at', ''),
+                                'filename': data.get('filename', f)
+                            })
+                except Exception as e:
+                    print(f"Error loading {f}: {e}")
                     continue
     # Sort by newest first
     quizzes.sort(key=lambda x: x.get('created_at', ''), reverse=True)

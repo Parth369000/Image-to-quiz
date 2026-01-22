@@ -8,24 +8,84 @@ const QuizApp = ({ quizId, onBack }) => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedOptions, setSelectedOptions] = useState({});
     const [showResults, setShowResults] = useState(false);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         // Fetch specific quiz JSON from the Flask backend endpoint
-        // We can fetch from /quizzes/ID.json if served statically, or an API
-        // Since we saved files in 'public/quizzes/[ID].json', Vite dev server serves 'public' at root.
-        // So the path is /quizzes/[ID].json
         fetch(`/quizzes/${quizId}.json`)
             .then(res => {
                 if (!res.ok) throw new Error("Quiz not found");
                 return res.json();
             })
-            .then(data => setQuizData(data))
-            .catch(err => console.error("Failed to load quiz data", err));
+            .then(data => {
+                // Check if data is legacy array format
+                if (Array.isArray(data)) {
+                    // Normalize standard format
+                    const normalizedQuestions = data.map((q, index) => {
+                        // Use provided id or fallback to index
+                        const qId = q.id || q.page || index + 1;
+                        
+                        // Ensure options exist
+                        const rawOptions = q.options || [];
+                        
+                        // Convert string array options to object array with keys
+                        const options = rawOptions.map((opt, idx) => ({
+                            key: (idx + 1).toString(),
+                            text: opt
+                        }));
+                        
+                        // Find correct key by matching answer text string
+                        // This assumes strict equality. 
+                        const answerText = q.answer || "";
+                        const correctOpt = options.find(o => o.text.trim() === answerText.trim());
+                        const correctKey = correctOpt ? correctOpt.key : null;
+
+                        return {
+                            id: qId,
+                            question: q.question,
+                            options: options,
+                            correct_answer: correctKey
+                        };
+                    });
+
+                    setQuizData({
+                        quiz_title: `Quiz ${quizId}`,
+                        questions: normalizedQuestions
+                    });
+                } else {
+                    // Already in new format
+                    setQuizData(data);
+                }
+            })
+            .catch(err => {
+                console.error("Failed to load quiz data", err);
+                setError(err.message);
+            });
     }, [quizId]);
+
+    if (error) return (
+        <div className="container" style={{ textAlign: 'center', marginTop: '50px' }}>
+            <h2>Error Loading Quiz</h2>
+            <p style={{ color: 'red' }}>{error}</p>
+            <button onClick={onBack} className="btn secondary" style={{ marginTop: '20px' }}>Back to Home</button>
+        </div>
+    );
 
     if (!quizData) return <div className="loading">Loading Quiz...</div>;
 
+    if (!quizData.questions || quizData.questions.length === 0) {
+        return (
+            <div className="container" style={{ textAlign: 'center', marginTop: '50px' }}>
+                <h2>No Questions Found</h2>
+                <p>The quiz file appears to be empty or invalid.</p>
+                <button onClick={onBack} className="btn secondary">Back to Home</button>
+            </div>
+        );
+    }
+
     const currentQuestion = quizData.questions[currentQuestionIndex];
+
+    // Restore handlers
     const totalQuestions = quizData.questions.length;
 
     const handleOptionSelect = (key) => {
@@ -49,6 +109,7 @@ const QuizApp = ({ quizId, onBack }) => {
         }
     };
 
+    // Restore Result View
     if (showResults) {
         // Calculate Score
         let score = 0;
@@ -125,19 +186,29 @@ const QuizApp = ({ quizId, onBack }) => {
         );
     }
 
+    if (!currentQuestion) {
+        return (
+            <div className="container">
+                <h2>Error</h2>
+                <p>Question {currentQuestionIndex + 1} not found.</p>
+                <button onClick={onBack} className="btn secondary">Back to Home</button>
+            </div>
+        );
+    }
+
     return (
         <div className="container">
             <header className="quiz-header">
                 <button onClick={onBack} className="btn-text">← Back</button>
                 <span className="quiz-title-small">{quizData.quiz_title}</span>
-                <span className="progress">Q {currentQuestionIndex + 1} / {totalQuestions}</span>
+                <span className="progress">Q {currentQuestionIndex + 1} / {quizData.questions.length}</span>
             </header>
 
             <main className="question-card">
-                <h2 className="question-text">{currentQuestion.question}</h2>
+                <h2 className="question-text">{currentQuestion.question || "Question text missing"}</h2>
 
                 <div className="options-grid">
-                    {currentQuestion.options.map((opt) => (
+                    {(currentQuestion.options || []).map((opt) => (
                         <button
                             key={opt.key}
                             className={`option-btn ${selectedOptions[currentQuestion.id] === opt.key ? 'selected' : ''}`}
@@ -185,4 +256,37 @@ const App = () => {
     );
 };
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+class ErrorBoundary extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { hasError: false, error: null };
+    }
+
+    static getDerivedStateFromError(error) {
+        return { hasError: true, error };
+    }
+
+    componentDidCatch(error, errorInfo) {
+        console.error("Uncaught error:", error, errorInfo);
+    }
+
+    render() {
+        if (this.state.hasError) {
+            return (
+                <div className="container" style={{ padding: '20px', textAlign: 'center' }}>
+                    <h1>Something went wrong.</h1>
+                    <p style={{ color: 'red' }}>{this.state.error && this.state.error.toString()}</p>
+                    <button onClick={() => window.location.reload()} className="btn primary">Reload Page</button>
+                </div>
+            );
+        }
+
+        return this.props.children;
+    }
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <ErrorBoundary>
+        <App />
+    </ErrorBoundary>
+);

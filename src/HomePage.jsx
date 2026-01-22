@@ -20,10 +20,13 @@ const HomePage = ({ onQuizSelect }) => {
     const fetchQuizzes = async () => {
         try {
             const res = await fetch(`${API_URL}/quizzes`);
+            if (!res.ok) throw new Error("Failed to connect to server");
             const data = await res.json();
             setQuizzes(data);
+            setError(null);
         } catch (e) {
-            console.error("Failed to fetch quizzes");
+            console.error("Failed to fetch quizzes", e);
+            setError(`Could not load quizzes: ${e.message}. Is backend running?`);
         }
     };
 

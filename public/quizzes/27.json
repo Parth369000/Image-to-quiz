@@ -1,0 +1,2379 @@
+[
+  {
+    "id": 1,
+    "question": "When should a safety lanyard be inspected to ensure safe operation during work at height?",
+    "options": [
+      "Only once per month",
+      "After every use",
+      "Before every use",
+      "Once per year"
+    ],
+    "answer": "Before every use"
+  },
+  {
+    "id": 2,
+    "question": "Oil analysis is classified under which type of maintenance strategy?",
+    "options": [
+      "Preventive maintenance",
+      "Breakdown maintenance",
+      "Predictive maintenance",
+      "Reactive maintenance"
+    ],
+    "answer": "Predictive maintenance"
+  },
+  {
+    "id": 3,
+    "question": "What is the main purpose of performing oil analysis on industrial equipment?",
+    "options": [
+      "To reduce lubrication cost",
+      "To find out the condition of parts inside the equipment",
+      "To clean internal machine components",
+      "To increase oil viscosity"
+    ],
+    "answer": "To find out the condition of parts inside the equipment"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following metals is considered more malleable and commonly used in applications requiring easy deformation?",
+    "options": [
+      "Steel",
+      "Aluminum",
+      "Brass",
+      "Hardened steel"
+    ],
+    "answer": "Brass"
+  },
+  {
+    "id": 5,
+    "question": "What is the approximate weight of a round steel bar having a diameter of 4 inches and a length of 6 feet if the density of steel is 490 lb/ft³?",
+    "options": [
+      "257 lb",
+      "197 lb",
+      "307 lb",
+      "357 lb"
+    ],
+    "answer": "257 lb"
+  },
+  {
+    "id": 6,
+    "question": "When leveling a sole plate using a precision level, what shim thickness is required if a 12-inch level shows a 0.020 inch low reading on a 36-inch sole plate?",
+    "options": [
+      "0.02 inch",
+      "0.04 inch",
+      "0.06 inch",
+      "0.08 inch"
+    ],
+    "answer": "0.06 inch"
+  },
+  {
+    "id": 7,
+    "question": "Which precision instrument is used to check the face alignment of a coupling?",
+    "options": [
+      "Vernier caliper",
+      "Depth gauge",
+      "Dial indicator",
+      "Straight edge"
+    ],
+    "answer": "Dial indicator"
+  },
+  {
+    "id": 8,
+    "question": "What is the correct initial procedure to start a steam turbine?",
+    "options": [
+      "Start oil pump and admit steam",
+      "Start jacking pump, then turning gear",
+      "Start turning gear, then stop oil pump",
+      "Start turbine directly under load"
+    ],
+    "answer": "Start jacking pump, then turning gear"
+  },
+  {
+    "id": 9,
+    "question": "Why is the turning gear started before admitting steam to a turbine?",
+    "options": [
+      "To increase turbine speed",
+      "To prevent rotor bowing and ensure uniform heating",
+      "To reduce oil consumption",
+      "To increase power output"
+    ],
+    "answer": "To prevent rotor bowing and ensure uniform heating"
+  },
+  {
+    "id": 10,
+    "question": "What is the last step in the correct steam turbine start-up procedure?",
+    "options": [
+      "Start oil pump",
+      "Stop jacking pump",
+      "Start turning gear",
+      "Admit full steam"
+    ],
+    "answer": "Stop jacking pump"
+  },
+  {
+    "id": 11,
+    "question": "What is the standard included angle of a general-purpose twist drill?",
+    "options": [
+      "90 degrees",
+      "100 degrees",
+      "118 degrees",
+      "135 degrees"
+    ],
+    "answer": "118 degrees"
+  },
+  {
+    "id": 12,
+    "question": "Which diagram correctly represents the pitch of a screw thread as shown in technical drawings?",
+    "options": [
+      "Diagram A",
+      "Diagram B",
+      "Diagram C",
+      "Diagram D"
+    ],
+    "answer": "Diagram C"
+  },
+  {
+    "id": 13,
+    "question": "A bolt with six radial lines on its head identifies which grade of fastener?",
+    "options": [
+      "Grade 2",
+      "Grade 5",
+      "Grade 8",
+      "Stainless steel bolt"
+    ],
+    "answer": "Grade 8"
+  },
+  {
+    "id": 14,
+    "question": "Who is responsible for mentoring and training a Red Seal journeyman industrial mechanic on the job?",
+    "options": [
+      "Apprentice mechanic",
+      "General supervisor",
+      "Red Seal journeyman",
+      "Certified industrial mechanic"
+    ],
+    "answer": "Certified industrial mechanic"
+  },
+  {
+    "id": 15,
+    "question": "What is the correct reading of the depth micrometer shown in the figure?",
+    "options": [
+      "0.257 inch",
+      "0.272 inch",
+      "0.278 inch",
+      "0.286 inch"
+    ],
+    "answer": "0.272 inch"
+  },
+  {
+    "id": 16,
+    "question": "If oil lubrication in a centrifugal pump is found to be contaminated, what corrective action should be taken?",
+    "options": [
+      "Add fresh oil",
+      "Change the filter only",
+      "Drain oil and refill",
+      "Increase oil pressure"
+    ],
+    "answer": "Drain oil and refill"
+  },
+  {
+    "id": 17,
+    "question": "What tool is commonly used to clean metal files in a workshop?",
+    "options": [
+      "Sandpaper",
+      "Wire wheel",
+      "File card or wire brush",
+      "Compressed air"
+    ],
+    "answer": "File card or wire brush"
+  },
+  {
+    "id": 18,
+    "question": "Which tool is most suitable for removing a bearing when only the inner race is accessible?",
+    "options": [
+      "Three jaw puller",
+      "Two jaw puller",
+      "Hydraulic press",
+      "Slide hammer"
+    ],
+    "answer": "Two jaw puller"
+  },
+  {
+    "id": 19,
+    "question": "What crane hand signal indicates that the load should be swung?",
+    "options": [
+      "Raise load",
+      "Lower load",
+      "Swing the load",
+      "Stop everything"
+    ],
+    "answer": "Swing the load"
+  },
+  {
+    "id": 20,
+    "question": "Where should the minimum oil level be maintained in a rolling element bearing?",
+    "options": [
+      "Above the top ball",
+      "At the center of the bearing",
+      "Slightly below the center of the lowest ball",
+      "Completely submerged"
+    ],
+    "answer": "Slightly below the center of the lowest ball"
+  },
+  {
+    "id": 21,
+    "question": "Which type of hitch provides the greatest strength when lifting loads with a sling?",
+    "options": [
+      "Single wrap",
+      "Choker hitch",
+      "Basket hitch",
+      "Double wrap"
+    ],
+    "answer": "Double wrap"
+  },
+  {
+    "id": 22,
+    "question": "What device is used to protect wire rope from damage caused by sharp edges?",
+    "options": [
+      "Tag line",
+      "Soft corner",
+      "Shackle",
+      "Hook latch"
+    ],
+    "answer": "Soft corner"
+  },
+  {
+    "id": 23,
+    "question": "When machining a long workpiece on a lathe that cannot be held by the headstock alone, where should the steady rest be installed?",
+    "options": [
+      "Near the headstock",
+      "At the center of the shaft",
+      "Near the tailstock",
+      "Anywhere along the shaft"
+    ],
+    "answer": "Near the tailstock"
+  },
+  {
+    "id": 24,
+    "question": "Which tool is used to measure clearance in a split bearing?",
+    "options": [
+      "Feeler gauge",
+      "Dial indicator",
+      "Plastic gauge",
+      "Micrometer"
+    ],
+    "answer": "Plastic gauge"
+  },
+  {
+    "id": 25,
+    "question": "Which non-destructive testing method is used to detect internal cracks or defects in materials?",
+    "options": [
+      "Magnetic particle testing",
+      "Dye penetrant testing",
+      "Ultrasonic testing",
+      "Visual inspection"
+    ],
+    "answer": "Ultrasonic testing"
+  },
+  {
+    "id": 26,
+    "question": "Where is the crown adjustment located on a crowned conveyor pulley?",
+    "options": [
+      "At the pulley edges",
+      "On one side only",
+      "At the center of the pulley",
+      "Near the bearings"
+    ],
+    "answer": "At the center of the pulley"
+  },
+  {
+    "id": 27,
+    "question": "What corrective action should be taken if a conveyor belt slips during start-up?",
+    "options": [
+      "Reduce load",
+      "Increase counterweight",
+      "Replace belt",
+      "Decrease pulley diameter"
+    ],
+    "answer": "Increase counterweight"
+  },
+  {
+    "id": 28,
+    "question": "How is a 0–1 inch micrometer calibrated correctly?",
+    "options": [
+      "Using a steel ruler",
+      "Using a feeler gauge",
+      "Using a standard gauge block",
+      "Using vernier calipers"
+    ],
+    "answer": "Using a standard gauge block"
+  },
+  {
+    "id": 29,
+    "question": "What is the first safety step before using hydraulic equipment that will remain idle for a long time?",
+    "options": [
+      "Check oil level",
+      "Release stored hydraulic energy",
+      "Increase pressure",
+      "Inspect hoses"
+    ],
+    "answer": "Release stored hydraulic energy"
+  },
+  {
+    "id": 30,
+    "question": "Which type of jack is suitable for supporting a load for an extended period?",
+    "options": [
+      "Hydraulic jack",
+      "Pneumatic jack",
+      "Mechanical screw jack",
+      "Bottle jack"
+    ],
+    "answer": "Mechanical screw jack"
+  },
+   {
+    "id": 31,
+    "question": "What is the primary reason for using a soft foot correction during machine installation and alignment?",
+    "options": [
+      "To increase machine speed",
+      "To eliminate uneven load distribution on machine feet",
+      "To improve lubrication flow",
+      "To reduce power consumption"
+    ],
+    "answer": "To eliminate uneven load distribution on machine feet"
+  },
+  {
+    "id": 32,
+    "question": "Which bearing defect is commonly identified by high-frequency vibration analysis?",
+    "options": [
+      "Shaft imbalance",
+      "Bearing inner race defect",
+      "Coupling misalignment",
+      "Loose foundation bolts"
+    ],
+    "answer": "Bearing inner race defect"
+  },
+  {
+    "id": 33,
+    "question": "What is the primary purpose of installing a breather filter on a hydraulic reservoir?",
+    "options": [
+      "Increase oil pressure",
+      "Allow air exchange while preventing contamination",
+      "Cool the hydraulic oil",
+      "Increase oil flow rate"
+    ],
+    "answer": "Allow air exchange while preventing contamination"
+  },
+  {
+    "id": 34,
+    "question": "Which method is most effective for detecting cracks on the surface of non-magnetic materials?",
+    "options": [
+      "Magnetic particle testing",
+      "Ultrasonic testing",
+      "Dye penetrant testing",
+      "Radiographic testing"
+    ],
+    "answer": "Dye penetrant testing"
+  },
+  {
+    "id": 35,
+    "question": "When lifting heavy equipment with slings, what factor primarily determines the working load limit?",
+    "options": [
+      "Length of the sling",
+      "Angle of the sling to the load",
+      "Color of the sling",
+      "Temperature of the environment"
+    ],
+    "answer": "Angle of the sling to the load"
+  },
+  {
+    "id": 36,
+    "question": "What condition can occur if a rolling element bearing is over-lubricated?",
+    "options": [
+      "Increased operating temperature",
+      "Reduced friction",
+      "Improved bearing life",
+      "Lower vibration levels"
+    ],
+    "answer": "Increased operating temperature"
+  },
+  {
+    "id": 37,
+    "question": "Which measuring instrument is best suited for checking shaft runout during installation?",
+    "options": [
+      "Micrometer",
+      "Vernier caliper",
+      "Dial indicator",
+      "Depth gauge"
+    ],
+    "answer": "Dial indicator"
+  },
+  {
+    "id": 38,
+    "question": "What is the main advantage of using condition-based maintenance over preventive maintenance?",
+    "options": [
+      "Higher maintenance cost",
+      "Maintenance only when equipment fails",
+      "Maintenance performed based on actual equipment condition",
+      "Shorter equipment life"
+    ],
+    "answer": "Maintenance performed based on actual equipment condition"
+  },
+  {
+    "id": 39,
+    "question": "Which type of seal is most commonly used to prevent leakage in rotating shafts?",
+    "options": [
+      "Gasket seal",
+      "Mechanical seal",
+      "Labyrinth seal",
+      "O-ring"
+    ],
+    "answer": "Mechanical seal"
+  },
+  {
+    "id": 40,
+    "question": "What is the primary function of a pressure relief valve in a hydraulic system?",
+    "options": [
+      "Control flow rate",
+      "Protect the system from excessive pressure",
+      "Store hydraulic energy",
+      "Increase pump efficiency"
+    ],
+    "answer": "Protect the system from excessive pressure"
+  },
+  {
+    "id": 41,
+    "question": "Which type of gear arrangement is best suited for transmitting motion between parallel shafts?",
+    "options": [
+      "Bevel gears",
+      "Worm gears",
+      "Spur gears",
+      "Hypoid gears"
+    ],
+    "answer": "Spur gears"
+  },
+  {
+    "id": 42,
+    "question": "What is the main safety concern when working with compressed air systems?",
+    "options": [
+      "Low air temperature",
+      "Stored energy causing sudden release",
+      "Reduced lubrication",
+      "Noise generation only"
+    ],
+    "answer": "Stored energy causing sudden release"
+  },
+  {
+    "id": 43,
+    "question": "Which device is commonly used to monitor vibration levels in rotating machinery?",
+    "options": [
+      "Thermocouple",
+      "Accelerometer",
+      "Pressure transducer",
+      "Flow sensor"
+    ],
+    "answer": "Accelerometer"
+  },
+  {
+    "id": 44,
+    "question": "What is the correct method for tightening critical bolts to specification?",
+    "options": [
+      "Tighten by feel",
+      "Use an impact wrench",
+      "Use a calibrated torque wrench",
+      "Tighten until bolt stretches"
+    ],
+    "answer": "Use a calibrated torque wrench"
+  },
+  {
+    "id": 45,
+    "question": "Which lubricant property indicates resistance to flow?",
+    "options": [
+      "Flash point",
+      "Viscosity",
+      "Pour point",
+      "Density"
+    ],
+    "answer": "Viscosity"
+  },
+  {
+    "id": 46,
+    "question": "What is the primary reason for using a flexible coupling between a motor and a pump?",
+    "options": [
+      "Increase torque",
+      "Allow for slight misalignment",
+      "Increase speed",
+      "Reduce power consumption"
+    ],
+    "answer": "Allow for slight misalignment"
+  },
+  {
+    "id": 47,
+    "question": "Which safety procedure must be followed before performing maintenance on energized equipment?",
+    "options": [
+      "Visual inspection",
+      "Lockout and tagout",
+      "Increase operating speed",
+      "Check oil level"
+    ],
+    "answer": "Lockout and tagout"
+  },
+  {
+    "id": 48,
+    "question": "What is the primary cause of cavitation in centrifugal pumps?",
+    "options": [
+      "Excessive discharge pressure",
+      "Low suction pressure",
+      "High oil viscosity",
+      "Misaligned coupling"
+    ],
+    "answer": "Low suction pressure"
+  },
+  {
+    "id": 49,
+    "question": "Which instrument is used to measure flatness of a machined surface?",
+    "options": [
+      "Straight edge",
+      "Dial indicator",
+      "Micrometer",
+      "Feeler gauge"
+    ],
+    "answer": "Straight edge"
+  },
+  {
+    "id": 50,
+    "question": "What is the purpose of a guard on rotating machinery?",
+    "options": [
+      "Increase efficiency",
+      "Prevent accidental contact with moving parts",
+      "Improve lubrication",
+      "Reduce vibration"
+    ],
+    "answer": "Prevent accidental contact with moving parts"
+  },
+  {
+    "id": 51,
+    "question": "Which type of maintenance is performed after equipment failure has occurred?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance",
+      "Condition-based maintenance"
+    ],
+    "answer": "Corrective maintenance"
+  },
+  {
+    "id": 52,
+    "question": "Which type of oil is generally recommended for high-speed rolling element bearings?",
+    "options": [
+      "High viscosity oil",
+      "Low viscosity oil",
+      "Grease only",
+      "Water-based lubricant"
+    ],
+    "answer": "Low viscosity oil"
+  },
+  {
+    "id": 53,
+    "question": "What is the primary function of a key in a keyed shaft connection?",
+    "options": [
+      "Align the shaft",
+      "Transmit torque",
+      "Reduce vibration",
+      "Support axial load"
+    ],
+    "answer": "Transmit torque"
+  },
+  {
+    "id": 54,
+    "question": "Which lifting accessory is used to connect slings to a load?",
+    "options": [
+      "Shackle",
+      "Hook",
+      "Turnbuckle",
+      "Tag line"
+    ],
+    "answer": "Shackle"
+  },
+  {
+    "id": 55,
+    "question": "What is the correct action if abnormal vibration is detected during machine operation?",
+    "options": [
+      "Ignore and continue running",
+      "Increase operating speed",
+      "Investigate and correct the cause",
+      "Add more lubrication"
+    ],
+    "answer": "Investigate and correct the cause"
+  },
+  {
+    "id": 56,
+    "question": "Which non-destructive testing method is most suitable for detecting subsurface defects?",
+    "options": [
+      "Visual inspection",
+      "Dye penetrant testing",
+      "Ultrasonic testing",
+      "Magnetic particle testing"
+    ],
+    "answer": "Ultrasonic testing"
+  },
+  {
+    "id": 57,
+    "question": "What is the purpose of balancing rotating components?",
+    "options": [
+      "Increase friction",
+      "Reduce vibration and bearing load",
+      "Increase operating speed",
+      "Reduce lubrication needs"
+    ],
+    "answer": "Reduce vibration and bearing load"
+  },
+  {
+    "id": 58,
+    "question": "Which type of fire extinguisher is recommended for electrical fires?",
+    "options": [
+      "Water",
+      "Foam",
+      "CO2",
+      "Wet chemical"
+    ],
+    "answer": "CO2"
+  },
+  {
+    "id": 59,
+    "question": "What is the function of a flow control valve in a hydraulic system?",
+    "options": [
+      "Control system pressure",
+      "Control actuator speed",
+      "Store hydraulic energy",
+      "Filter hydraulic oil"
+    ],
+    "answer": "Control actuator speed"
+  },
+  {
+    "id": 60,
+    "question": "Which maintenance document records work performed, parts replaced, and observations?",
+    "options": [
+      "Operating manual",
+      "Maintenance log",
+      "Purchase order",
+      "Risk assessment"
+    ],
+    "answer": "Maintenance log"
+  },
+  {
+    "id": 61,
+    "question": "What is the primary objective of performing shaft alignment between a motor and a driven machine?",
+    "options": [
+      "Increase operating speed",
+      "Reduce vibration and premature bearing failure",
+      "Increase power transmission efficiency only",
+      "Reduce lubrication requirements"
+    ],
+    "answer": "Reduce vibration and premature bearing failure"
+  },
+  {
+    "id": 62,
+    "question": "Which tool is most commonly used to measure the thickness of a shim during machine installation?",
+    "options": [
+      "Steel ruler",
+      "Micrometer",
+      "Vernier caliper",
+      "Feeler gauge"
+    ],
+    "answer": "Micrometer"
+  },
+  {
+    "id": 63,
+    "question": "What is the main reason for using a soft foot check before final machine alignment?",
+    "options": [
+      "To check electrical insulation",
+      "To ensure all machine feet sit evenly on the base",
+      "To increase machine rigidity",
+      "To reduce noise during operation"
+    ],
+    "answer": "To ensure all machine feet sit evenly on the base"
+  },
+  {
+    "id": 64,
+    "question": "Which bearing failure mode is typically caused by electrical current passing through the bearing?",
+    "options": [
+      "Brinelling",
+      "Pitting",
+      "Electrical fluting",
+      "False brinelling"
+    ],
+    "answer": "Electrical fluting"
+  },
+  {
+    "id": 65,
+    "question": "What is the purpose of a jacking oil pump in large rotating machinery?",
+    "options": [
+      "Increase system pressure",
+      "Lift the shaft during start-up to prevent metal-to-metal contact",
+      "Cool the bearing housing",
+      "Filter lubricating oil"
+    ],
+    "answer": "Lift the shaft during start-up to prevent metal-to-metal contact"
+  },
+  {
+    "id": 66,
+    "question": "Which condition is most likely to result from insufficient lubrication in rolling element bearings?",
+    "options": [
+      "Lower operating temperature",
+      "Increased bearing life",
+      "Excessive heat and premature failure",
+      "Reduced vibration"
+    ],
+    "answer": "Excessive heat and premature failure"
+  },
+  {
+    "id": 67,
+    "question": "Which type of coupling is best suited for applications requiring high torque transmission with minimal misalignment?",
+    "options": [
+      "Rigid coupling",
+      "Flexible coupling",
+      "Universal coupling",
+      "Fluid coupling"
+    ],
+    "answer": "Rigid coupling"
+  },
+  {
+    "id": 68,
+    "question": "What is the primary function of a thrust bearing in rotating equipment?",
+    "options": [
+      "Support radial loads only",
+      "Support axial loads",
+      "Reduce shaft speed",
+      "Increase lubrication flow"
+    ],
+    "answer": "Support axial loads"
+  },
+  {
+    "id": 69,
+    "question": "Which non-destructive testing method is best suited for detecting surface cracks in ferromagnetic materials?",
+    "options": [
+      "Dye penetrant testing",
+      "Ultrasonic testing",
+      "Radiographic testing",
+      "Magnetic particle testing"
+    ],
+    "answer": "Magnetic particle testing"
+  },
+  {
+    "id": 70,
+    "question": "What is the primary safety concern when working on pressurized hydraulic systems?",
+    "options": [
+      "High oil temperature",
+      "Stored energy causing sudden release",
+      "Low oil viscosity",
+      "Noise generation"
+    ],
+    "answer": "Stored energy causing sudden release"
+  },
+  {
+    "id": 71,
+    "question": "Which measuring instrument is used to measure small internal diameters with high accuracy?",
+    "options": [
+      "Outside micrometer",
+      "Inside micrometer",
+      "Vernier caliper",
+      "Depth micrometer"
+    ],
+    "answer": "Inside micrometer"
+  },
+  {
+    "id": 72,
+    "question": "What is the purpose of a breather cap on a gearbox?",
+    "options": [
+      "Increase internal pressure",
+      "Allow air expansion while preventing contamination",
+      "Cool the lubricant",
+      "Increase oil flow"
+    ],
+    "answer": "Allow air expansion while preventing contamination"
+  },
+  {
+    "id": 73,
+    "question": "Which maintenance approach focuses on monitoring equipment condition using vibration, oil analysis, and thermography?",
+    "options": [
+      "Preventive maintenance",
+      "Breakdown maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Predictive maintenance"
+  },
+  {
+    "id": 74,
+    "question": "What is the primary reason for balancing rotating machinery components?",
+    "options": [
+      "Increase rotational speed",
+      "Reduce vibration and dynamic forces",
+      "Increase power output",
+      "Reduce lubrication needs"
+    ],
+    "answer": "Reduce vibration and dynamic forces"
+  },
+  {
+    "id": 75,
+    "question": "Which lifting method provides the highest capacity when using slings?",
+    "options": [
+      "Vertical hitch",
+      "Choker hitch",
+      "Basket hitch",
+      "Single wrap hitch"
+    ],
+    "answer": "Basket hitch"
+  },
+  {
+    "id": 76,
+    "question": "Which fire extinguisher is most suitable for fires involving flammable liquids?",
+    "options": [
+      "Water",
+      "Foam",
+      "CO2",
+      "Class D powder"
+    ],
+    "answer": "Foam"
+  },
+  {
+    "id": 77,
+    "question": "What is the correct procedure if abnormal noise is detected from a machine during operation?",
+    "options": [
+      "Ignore the noise and continue operation",
+      "Increase operating speed",
+      "Investigate and rectify the cause",
+      "Add more lubrication immediately"
+    ],
+    "answer": "Investigate and rectify the cause"
+  },
+  {
+    "id": 78,
+    "question": "Which component is used to absorb misalignment and shock loads in power transmission systems?",
+    "options": [
+      "Rigid coupling",
+      "Flexible coupling",
+      "Gearbox",
+      "Flywheel"
+    ],
+    "answer": "Flexible coupling"
+  },
+  {
+    "id": 79,
+    "question": "Which measuring tool is commonly used to check shaft straightness?",
+    "options": [
+      "Straight edge and feeler gauge",
+      "Micrometer",
+      "Vernier caliper",
+      "Depth gauge"
+    ],
+    "answer": "Straight edge and feeler gauge"
+  },
+  {
+    "id": 80,
+    "question": "What is the main function of a mechanical seal in pumps?",
+    "options": [
+      "Reduce vibration",
+      "Prevent leakage of process fluid",
+      "Increase pump speed",
+      "Improve lubrication"
+    ],
+    "answer": "Prevent leakage of process fluid"
+  },
+  {
+    "id": 81,
+    "question": "Which type of maintenance task includes cleaning, lubrication, and minor adjustments?",
+    "options": [
+      "Breakdown maintenance",
+      "Corrective maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance"
+    ],
+    "answer": "Preventive maintenance"
+  },
+  {
+    "id": 82,
+    "question": "What is the primary cause of excessive belt wear in belt-driven systems?",
+    "options": [
+      "Proper alignment",
+      "Excessive tension or misalignment",
+      "Correct pulley size",
+      "Adequate lubrication"
+    ],
+    "answer": "Excessive tension or misalignment"
+  },
+  {
+    "id": 83,
+    "question": "Which instrument is used to measure vibration amplitude and frequency?",
+    "options": [
+      "Accelerometer",
+      "Tachometer",
+      "Thermometer",
+      "Pressure gauge"
+    ],
+    "answer": "Accelerometer"
+  },
+  {
+    "id": 84,
+    "question": "What is the purpose of a lockout device?",
+    "options": [
+      "Increase equipment speed",
+      "Prevent accidental energization during maintenance",
+      "Improve machine efficiency",
+      "Reduce downtime"
+    ],
+    "answer": "Prevent accidental energization during maintenance"
+  },
+  {
+    "id": 85,
+    "question": "Which material is most commonly used for making industrial machine frames?",
+    "options": [
+      "Aluminium",
+      "Cast iron",
+      "Plastic",
+      "Copper"
+    ],
+    "answer": "Cast iron"
+  },
+  {
+    "id": 86,
+    "question": "Which testing method uses sound waves to detect internal defects?",
+    "options": [
+      "Radiography",
+      "Ultrasonic testing",
+      "Magnetic particle testing",
+      "Dye penetrant testing"
+    ],
+    "answer": "Ultrasonic testing"
+  },
+  {
+    "id": 87,
+    "question": "What is the function of a governor in rotating machinery?",
+    "options": [
+      "Increase speed continuously",
+      "Maintain constant speed under varying load",
+      "Reduce vibration",
+      "Control lubrication flow"
+    ],
+    "answer": "Maintain constant speed under varying load"
+  },
+  {
+    "id": 88,
+    "question": "Which safety device is designed to protect against overload in lifting equipment?",
+    "options": [
+      "Limit switch",
+      "Overload protector",
+      "Pressure gauge",
+      "Flow control valve"
+    ],
+    "answer": "Overload protector"
+  },
+  {
+    "id": 89,
+    "question": "What is the primary purpose of a lubrication schedule?",
+    "options": [
+      "Increase maintenance cost",
+      "Ensure timely and correct lubrication",
+      "Reduce machine speed",
+      "Eliminate the need for inspections"
+    ],
+    "answer": "Ensure timely and correct lubrication"
+  },
+  {
+    "id": 90,
+    "question": "Which document outlines hazards and control measures before starting a job?",
+    "options": [
+      "Maintenance log",
+      "Risk assessment",
+      "Purchase order",
+      "Operating manual"
+    ],
+    "answer": "Risk assessment"
+  },
+  {
+    "id": 91,
+    "question": "What is the primary reason for performing dynamic balancing on rotating machinery instead of static balancing?",
+    "options": [
+      "Dynamic balancing is faster to perform",
+      "Dynamic balancing corrects imbalance during actual operating conditions",
+      "Static balancing is only for large machines",
+      "Dynamic balancing reduces lubrication requirements"
+    ],
+    "answer": "Dynamic balancing corrects imbalance during actual operating conditions"
+  },
+  {
+    "id": 92,
+    "question": "Which condition is most likely to occur if a machine foundation is not properly grouted?",
+    "options": [
+      "Improved alignment stability",
+      "Increased vibration and loosening of fasteners",
+      "Reduced noise levels",
+      "Improved heat dissipation"
+    ],
+    "answer": "Increased vibration and loosening of fasteners"
+  },
+  {
+    "id": 93,
+    "question": "What is the main function of a thrust collar in rotating equipment?",
+    "options": [
+      "Support radial loads",
+      "Limit axial movement of the shaft",
+      "Increase lubrication flow",
+      "Reduce rotational speed"
+    ],
+    "answer": "Limit axial movement of the shaft"
+  },
+  {
+    "id": 94,
+    "question": "Which type of coupling uses elastomeric elements to absorb shock and vibration?",
+    "options": [
+      "Rigid coupling",
+      "Gear coupling",
+      "Jaw coupling",
+      "Universal coupling"
+    ],
+    "answer": "Jaw coupling"
+  },
+  {
+    "id": 95,
+    "question": "What is the most common cause of seal failure in centrifugal pumps?",
+    "options": [
+      "Excessive lubrication",
+      "Dry running of the seal faces",
+      "Low discharge pressure",
+      "Excessive cooling water flow"
+    ],
+    "answer": "Dry running of the seal faces"
+  },
+  {
+    "id": 96,
+    "question": "Which inspection technique is best suited for identifying hot spots in electrical panels and rotating machinery?",
+    "options": [
+      "Visual inspection",
+      "Ultrasonic inspection",
+      "Infrared thermography",
+      "Magnetic particle testing"
+    ],
+    "answer": "Infrared thermography"
+  },
+  {
+    "id": 97,
+    "question": "What is the primary advantage of laser shaft alignment over dial indicator alignment?",
+    "options": [
+      "Lower equipment cost",
+      "Higher accuracy and faster setup",
+      "No need for trained personnel",
+      "Reduced lubrication requirements"
+    ],
+    "answer": "Higher accuracy and faster setup"
+  },
+  {
+    "id": 98,
+    "question": "Which maintenance strategy focuses on eliminating the root cause of recurring failures?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance",
+      "Reliability-centered maintenance"
+    ],
+    "answer": "Reliability-centered maintenance"
+  },
+  {
+    "id": 99,
+    "question": "What is the primary hazard associated with stored energy in mechanical systems?",
+    "options": [
+      "Noise generation",
+      "Sudden uncontrolled release causing injury",
+      "Reduced machine efficiency",
+      "Increased power consumption"
+    ],
+    "answer": "Sudden uncontrolled release causing injury"
+  },
+  {
+    "id": 100,
+    "question": "Which tool is most appropriate for measuring shaft end play accurately?",
+    "options": [
+      "Vernier caliper",
+      "Dial indicator",
+      "Micrometer",
+      "Feeler gauge"
+    ],
+    "answer": "Dial indicator"
+  },
+  {
+    "id": 101,
+    "question": "What is the main reason for using shims under machine feet during installation?",
+    "options": [
+      "Increase machine height",
+      "Achieve proper alignment and level",
+      "Improve machine appearance",
+      "Reduce machine noise only"
+    ],
+    "answer": "Achieve proper alignment and level"
+  },
+  {
+    "id": 102,
+    "question": "Which bearing lubrication method is preferred for high-speed applications?",
+    "options": [
+      "Grease lubrication",
+      "Oil mist lubrication",
+      "Splash lubrication",
+      "Manual lubrication"
+    ],
+    "answer": "Oil mist lubrication"
+  },
+  {
+    "id": 103,
+    "question": "What is the purpose of a non-return valve in hydraulic and pneumatic systems?",
+    "options": [
+      "Control pressure",
+      "Allow flow in one direction only",
+      "Increase system efficiency",
+      "Store energy"
+    ],
+    "answer": "Allow flow in one direction only"
+  },
+  {
+    "id": 104,
+    "question": "Which type of maintenance is scheduled at fixed intervals regardless of equipment condition?",
+    "options": [
+      "Predictive maintenance",
+      "Preventive maintenance",
+      "Corrective maintenance",
+      "Breakdown maintenance"
+    ],
+    "answer": "Preventive maintenance"
+  },
+  {
+    "id": 105,
+    "question": "What is the primary purpose of a machine guard?",
+    "options": [
+      "Improve productivity",
+      "Prevent access to moving or hazardous parts",
+      "Reduce vibration",
+      "Improve lubrication distribution"
+    ],
+    "answer": "Prevent access to moving or hazardous parts"
+  },
+  {
+    "id": 106,
+    "question": "Which tool is commonly used to clean tapered bores before bearing installation?",
+    "options": [
+      "Emery cloth",
+      "Lint-free cloth and solvent",
+      "Wire brush",
+      "Grinding stone"
+    ],
+    "answer": "Lint-free cloth and solvent"
+  },
+  {
+    "id": 107,
+    "question": "Which factor has the greatest influence on belt drive power transmission capacity?",
+    "options": [
+      "Belt color",
+      "Belt speed and tension",
+      "Pulley paint finish",
+      "Ambient temperature"
+    ],
+    "answer": "Belt speed and tension"
+  },
+  {
+    "id": 108,
+    "question": "What is the correct action if oil analysis indicates high metal particle content?",
+    "options": [
+      "Ignore the result",
+      "Increase oil viscosity",
+      "Investigate wear sources and take corrective action",
+      "Reduce oil change intervals only"
+    ],
+    "answer": "Investigate wear sources and take corrective action"
+  },
+  {
+    "id": 109,
+    "question": "Which type of fire extinguisher should be used for fires involving energized electrical equipment?",
+    "options": [
+      "Water",
+      "Foam",
+      "CO2",
+      "Class D powder"
+    ],
+    "answer": "CO2"
+  },
+  {
+    "id": 110,
+    "question": "What is the primary function of a vibration isolator under machinery?",
+    "options": [
+      "Increase machine rigidity",
+      "Transmit vibration to the foundation",
+      "Reduce vibration transmission to surrounding structures",
+      "Increase machine speed"
+    ],
+    "answer": "Reduce vibration transmission to surrounding structures"
+  },
+  {
+    "id": 111,
+    "question": "Which inspection method uses high-frequency sound waves to detect leaks and electrical faults?",
+    "options": [
+      "Visual inspection",
+      "Infrared thermography",
+      "Ultrasonic inspection",
+      "Radiographic testing"
+    ],
+    "answer": "Ultrasonic inspection"
+  },
+  {
+    "id": 112,
+    "question": "What is the primary purpose of a lockout-tagout procedure?",
+    "options": [
+      "Improve equipment efficiency",
+      "Prevent accidental startup during maintenance",
+      "Reduce maintenance duration",
+      "Increase production output"
+    ],
+    "answer": "Prevent accidental startup during maintenance"
+  },
+  {
+    "id": 113,
+    "question": "Which type of bearing is best suited for handling combined radial and axial loads?",
+    "options": [
+      "Deep groove ball bearing",
+      "Cylindrical roller bearing",
+      "Angular contact bearing",
+      "Needle roller bearing"
+    ],
+    "answer": "Angular contact bearing"
+  },
+  {
+    "id": 114,
+    "question": "What is the primary cause of fretting corrosion in mechanical joints?",
+    "options": [
+      "Excessive lubrication",
+      "Small oscillatory movements under load",
+      "High operating temperature",
+      "Electrical current flow"
+    ],
+    "answer": "Small oscillatory movements under load"
+  },
+  {
+    "id": 115,
+    "question": "Which device is used to measure torque applied to a fastener?",
+    "options": [
+      "Spanner",
+      "Torque wrench",
+      "Impact wrench",
+      "Breaker bar"
+    ],
+    "answer": "Torque wrench"
+  },
+  {
+    "id": 116,
+    "question": "What is the main advantage of using synthetic lubricants over mineral oils?",
+    "options": [
+      "Lower initial cost",
+      "Better performance at extreme temperatures",
+      "Shorter service life",
+      "Lower oxidation resistance"
+    ],
+    "answer": "Better performance at extreme temperatures"
+  },
+  {
+    "id": 117,
+    "question": "Which safety device automatically stops equipment when excessive load is detected?",
+    "options": [
+      "Limit switch",
+      "Overload relay",
+      "Pressure gauge",
+      "Flow control valve"
+    ],
+    "answer": "Overload relay"
+  },
+  {
+    "id": 118,
+    "question": "What is the purpose of a flexible hose in hydraulic systems?",
+    "options": [
+      "Increase pressure",
+      "Absorb vibration and accommodate movement",
+      "Filter hydraulic oil",
+      "Store hydraulic energy"
+    ],
+    "answer": "Absorb vibration and accommodate movement"
+  },
+  {
+    "id": 119,
+    "question": "Which maintenance practice focuses on continuous improvement and failure prevention?",
+    "options": [
+      "Total productive maintenance",
+      "Breakdown maintenance",
+      "Corrective maintenance",
+      "Emergency maintenance"
+    ],
+    "answer": "Total productive maintenance"
+  },
+  {
+    "id": 120,
+    "question": "Which document provides step-by-step instructions for safe equipment operation?",
+    "options": [
+      "Maintenance log",
+      "Standard operating procedure",
+      "Purchase order",
+      "Inspection checklist"
+    ],
+    "answer": "Standard operating procedure"
+  },
+  {
+    "id": 121,
+    "question": "What is the primary purpose of performing a job safety analysis (JSA) before starting maintenance work?",
+    "options": [
+      "Increase job completion speed",
+      "Identify hazards and define control measures",
+      "Reduce documentation requirements",
+      "Assign responsibility to supervisors only"
+    ],
+    "answer": "Identify hazards and define control measures"
+  },
+  {
+    "id": 122,
+    "question": "Which condition is most likely to cause excessive shaft vibration in rotating machinery?",
+    "options": [
+      "Proper alignment",
+      "Rotor imbalance",
+      "Correct lubrication",
+      "Stable foundation"
+    ],
+    "answer": "Rotor imbalance"
+  },
+  {
+    "id": 123,
+    "question": "What is the primary reason for installing guards on belt and pulley drives?",
+    "options": [
+      "Improve belt tracking",
+      "Prevent accidental contact with moving parts",
+      "Increase belt life",
+      "Reduce belt noise"
+    ],
+    "answer": "Prevent accidental contact with moving parts"
+  },
+  {
+    "id": 124,
+    "question": "Which non-destructive testing method is most suitable for detecting internal volumetric defects such as voids?",
+    "options": [
+      "Dye penetrant testing",
+      "Magnetic particle testing",
+      "Radiographic testing",
+      "Visual inspection"
+    ],
+    "answer": "Radiographic testing"
+  },
+  {
+    "id": 125,
+    "question": "What is the main function of a thrust bearing in a vertical pump?",
+    "options": [
+      "Support radial load only",
+      "Support axial load of the rotating assembly",
+      "Reduce hydraulic losses",
+      "Increase pump speed"
+    ],
+    "answer": "Support axial load of the rotating assembly"
+  },
+  {
+    "id": 126,
+    "question": "Which factor has the greatest effect on the service life of rolling element bearings?",
+    "options": [
+      "Bearing color",
+      "Lubrication quality and cleanliness",
+      "Ambient lighting",
+      "Paint coating on housing"
+    ],
+    "answer": "Lubrication quality and cleanliness"
+  },
+  {
+    "id": 127,
+    "question": "What is the primary purpose of a foundation bolt in machinery installation?",
+    "options": [
+      "Increase machine weight",
+      "Secure the machine to the foundation",
+      "Improve machine appearance",
+      "Reduce lubrication requirements"
+    ],
+    "answer": "Secure the machine to the foundation"
+  },
+  {
+    "id": 128,
+    "question": "Which instrument is commonly used to measure angular misalignment between coupled shafts?",
+    "options": [
+      "Straight edge",
+      "Dial indicator",
+      "Micrometer",
+      "Steel rule"
+    ],
+    "answer": "Dial indicator"
+  },
+  {
+    "id": 129,
+    "question": "What is the primary cause of overheating in electric motors?",
+    "options": [
+      "Adequate ventilation",
+      "Overloading or insufficient cooling",
+      "Correct voltage supply",
+      "Balanced rotor"
+    ],
+    "answer": "Overloading or insufficient cooling"
+  },
+  {
+    "id": 130,
+    "question": "Which maintenance practice focuses on eliminating the causes of equipment defects at their source?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Total productive maintenance",
+      "Breakdown maintenance"
+    ],
+    "answer": "Total productive maintenance"
+  },
+  {
+    "id": 131,
+    "question": "What is the main purpose of a hydraulic accumulator in a system?",
+    "options": [
+      "Filter hydraulic oil",
+      "Store energy and dampen pressure fluctuations",
+      "Increase pump flow rate",
+      "Reduce system temperature"
+    ],
+    "answer": "Store energy and dampen pressure fluctuations"
+  },
+  {
+    "id": 132,
+    "question": "Which type of seal is most effective for high-pressure hydraulic applications?",
+    "options": [
+      "O-ring seal",
+      "Lip seal",
+      "Mechanical seal",
+      "Gasket"
+    ],
+    "answer": "O-ring seal"
+  },
+  {
+    "id": 133,
+    "question": "What is the main reason for performing oil filtration in lubrication systems?",
+    "options": [
+      "Increase oil viscosity",
+      "Remove contaminants that cause wear",
+      "Change oil color",
+      "Increase operating temperature"
+    ],
+    "answer": "Remove contaminants that cause wear"
+  },
+  {
+    "id": 134,
+    "question": "Which lifting principle states that reducing the sling angle increases load on the sling?",
+    "options": [
+      "Vector force principle",
+      "Center of gravity principle",
+      "Mechanical advantage principle",
+      "Friction principle"
+    ],
+    "answer": "Vector force principle"
+  },
+  {
+    "id": 135,
+    "question": "What is the primary function of a shear pin in mechanical systems?",
+    "options": [
+      "Transmit maximum torque",
+      "Act as a mechanical fuse to protect equipment",
+      "Reduce vibration",
+      "Increase rotational speed"
+    ],
+    "answer": "Act as a mechanical fuse to protect equipment"
+  },
+  {
+    "id": 136,
+    "question": "Which type of bearing is most suitable for applications requiring high radial load capacity?",
+    "options": [
+      "Deep groove ball bearing",
+      "Angular contact bearing",
+      "Cylindrical roller bearing",
+      "Needle bearing"
+    ],
+    "answer": "Cylindrical roller bearing"
+  },
+  {
+    "id": 137,
+    "question": "What is the main safety risk when grinding without proper wheel guards?",
+    "options": [
+      "Reduced grinding efficiency",
+      "Increased vibration only",
+      "Wheel burst causing serious injury",
+      "Higher power consumption"
+    ],
+    "answer": "Wheel burst causing serious injury"
+  },
+  {
+    "id": 138,
+    "question": "Which inspection method is best suited for detecting misalignment in belt-driven systems?",
+    "options": [
+      "Visual inspection and straight edge",
+      "Radiographic inspection",
+      "Ultrasonic testing",
+      "Magnetic particle testing"
+    ],
+    "answer": "Visual inspection and straight edge"
+  },
+  {
+    "id": 139,
+    "question": "What is the main purpose of using lock washers in bolted joints?",
+    "options": [
+      "Increase bolt length",
+      "Prevent loosening due to vibration",
+      "Improve joint appearance",
+      "Increase tightening torque"
+    ],
+    "answer": "Prevent loosening due to vibration"
+  },
+  {
+    "id": 140,
+    "question": "Which type of fire extinguisher is suitable for combustible metal fires?",
+    "options": [
+      "Water",
+      "Foam",
+      "CO2",
+      "Class D powder"
+    ],
+    "answer": "Class D powder"
+  },
+  {
+    "id": 141,
+    "question": "What is the primary reason for monitoring bearing temperature during operation?",
+    "options": [
+      "Improve lubrication color",
+      "Detect abnormal conditions early",
+      "Increase bearing speed",
+      "Reduce power consumption"
+    ],
+    "answer": "Detect abnormal conditions early"
+  },
+  {
+    "id": 142,
+    "question": "Which tool is commonly used to measure belt tension accurately?",
+    "options": [
+      "Spring balance",
+      "Torque wrench",
+      "Belt tension gauge",
+      "Dial indicator"
+    ],
+    "answer": "Belt tension gauge"
+  },
+  {
+    "id": 143,
+    "question": "What is the main purpose of tagging equipment during maintenance activities?",
+    "options": [
+      "Improve record keeping",
+      "Identify equipment under maintenance and prevent operation",
+      "Increase production efficiency",
+      "Assign responsibility only"
+    ],
+    "answer": "Identify equipment under maintenance and prevent operation"
+  },
+  {
+    "id": 144,
+    "question": "Which factor most affects the accuracy of vibration measurements?",
+    "options": [
+      "Sensor mounting method",
+      "Paint color on the machine",
+      "Ambient lighting",
+      "Operator experience only"
+    ],
+    "answer": "Sensor mounting method"
+  },
+  {
+    "id": 145,
+    "question": "What is the main function of a flexible coupling in rotating machinery?",
+    "options": [
+      "Increase speed",
+      "Transmit power while accommodating misalignment",
+      "Store energy",
+      "Reduce lubrication requirements"
+    ],
+    "answer": "Transmit power while accommodating misalignment"
+  },
+  {
+    "id": 146,
+    "question": "Which type of maintenance is performed only after a fault has been detected but before complete failure?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance",
+      "Breakdown maintenance"
+    ],
+    "answer": "Corrective maintenance"
+  },
+  {
+    "id": 147,
+    "question": "What is the primary hazard when working near rotating shafts without guards?",
+    "options": [
+      "Noise exposure",
+      "Entanglement of clothing or body parts",
+      "Reduced lubrication",
+      "Higher energy consumption"
+    ],
+    "answer": "Entanglement of clothing or body parts"
+  },
+  {
+    "id": 148,
+    "question": "Which device is used to measure electrical insulation resistance?",
+    "options": [
+      "Multimeter",
+      "Megger (insulation resistance tester)",
+      "Clamp meter",
+      "Oscilloscope"
+    ],
+    "answer": "Megger (insulation resistance tester)"
+  },
+  {
+    "id": 149,
+    "question": "What is the main purpose of a permit-to-work system?",
+    "options": [
+      "Increase productivity",
+      "Ensure work is planned and carried out safely",
+      "Reduce paperwork",
+      "Assign work faster"
+    ],
+    "answer": "Ensure work is planned and carried out safely"
+  },
+  {
+    "id": 150,
+    "question": "Which maintenance KPI is most commonly used to measure equipment availability?",
+    "options": [
+      "Mean time to repair (MTTR)",
+      "Mean time between failures (MTBF)",
+      "Overall equipment effectiveness (OEE)",
+      "Maintenance cost ratio"
+    ],
+    "answer": "Overall equipment effectiveness (OEE)"
+  },
+  {
+    "id": 151,
+    "question": "What is the primary purpose of conducting a pre-start inspection on industrial machinery before beginning operation?",
+    "options": [
+      "Increase production speed",
+      "Identify visible defects and unsafe conditions",
+      "Reduce documentation requirements",
+      "Improve machine aesthetics"
+    ],
+    "answer": "Identify visible defects and unsafe conditions"
+  },
+  {
+    "id": 152,
+    "question": "Which factor most significantly affects the accuracy of shaft alignment measurements?",
+    "options": [
+      "Paint condition on the machine",
+      "Proper mounting of alignment instruments",
+      "Ambient noise level",
+      "Color of the coupling"
+    ],
+    "answer": "Proper mounting of alignment instruments"
+  },
+  {
+    "id": 153,
+    "question": "What is the primary cause of bearing contamination in industrial environments?",
+    "options": [
+      "Correct lubrication practices",
+      "Ingress of dirt, dust, or moisture",
+      "Balanced rotating components",
+      "Proper sealing arrangements"
+    ],
+    "answer": "Ingress of dirt, dust, or moisture"
+  },
+  {
+    "id": 154,
+    "question": "Which safety device is designed to protect electrical circuits from overload conditions?",
+    "options": [
+      "Limit switch",
+      "Circuit breaker",
+      "Pressure switch",
+      "Proximity sensor"
+    ],
+    "answer": "Circuit breaker"
+  },
+  {
+    "id": 155,
+    "question": "What is the primary reason for using vibration monitoring as part of predictive maintenance?",
+    "options": [
+      "Increase maintenance workload",
+      "Detect developing faults before catastrophic failure",
+      "Replace components at fixed intervals",
+      "Reduce equipment speed"
+    ],
+    "answer": "Detect developing faults before catastrophic failure"
+  },
+  {
+    "id": 156,
+    "question": "Which type of coupling is best suited for applications with significant angular misalignment?",
+    "options": [
+      "Rigid coupling",
+      "Flexible coupling",
+      "Universal (Hooke’s) coupling",
+      "Gear coupling"
+    ],
+    "answer": "Universal (Hooke’s) coupling"
+  },
+  {
+    "id": 157,
+    "question": "What is the main purpose of using shrouds or covers on rotating equipment?",
+    "options": [
+      "Improve cooling efficiency",
+      "Reduce lubrication consumption",
+      "Prevent accidental contact and contain debris",
+      "Increase rotational speed"
+    ],
+    "answer": "Prevent accidental contact and contain debris"
+  },
+  {
+    "id": 158,
+    "question": "Which inspection technique is most effective for identifying looseness in mechanical assemblies?",
+    "options": [
+      "Visual inspection only",
+      "Vibration analysis",
+      "Radiographic testing",
+      "Liquid penetrant testing"
+    ],
+    "answer": "Vibration analysis"
+  },
+  {
+    "id": 159,
+    "question": "What is the primary function of a relief valve in compressed air systems?",
+    "options": [
+      "Increase air flow",
+      "Protect the system from excessive pressure",
+      "Store compressed air",
+      "Reduce air temperature"
+    ],
+    "answer": "Protect the system from excessive pressure"
+  },
+  {
+    "id": 160,
+    "question": "Which document formally authorizes maintenance work to be carried out under controlled conditions?",
+    "options": [
+      "Maintenance log",
+      "Work permit",
+      "Operating manual",
+      "Inspection checklist"
+    ],
+    "answer": "Work permit"
+  },
+  {
+    "id": 161,
+    "question": "What is the main advantage of using laser-based alignment tools over traditional methods?",
+    "options": [
+      "Lower initial cost",
+      "Higher accuracy and reduced setup time",
+      "No need for trained technicians",
+      "Elimination of alignment documentation"
+    ],
+    "answer": "Higher accuracy and reduced setup time"
+  },
+  {
+    "id": 162,
+    "question": "Which condition is most likely to result from excessive belt tension in belt-driven equipment?",
+    "options": [
+      "Extended belt life",
+      "Increased bearing load and premature failure",
+      "Reduced vibration",
+      "Lower power transmission"
+    ],
+    "answer": "Increased bearing load and premature failure"
+  },
+  {
+    "id": 163,
+    "question": "What is the primary purpose of installing vibration isolators under heavy machinery?",
+    "options": [
+      "Increase machine stability only",
+      "Reduce transmission of vibration to the foundation",
+      "Increase operating speed",
+      "Improve lubrication flow"
+    ],
+    "answer": "Reduce transmission of vibration to the foundation"
+  },
+  {
+    "id": 164,
+    "question": "Which inspection method is best suited for detecting early-stage bearing defects?",
+    "options": [
+      "Visual inspection",
+      "Vibration analysis",
+      "Radiographic testing",
+      "Magnetic particle testing"
+    ],
+    "answer": "Vibration analysis"
+  },
+  {
+    "id": 165,
+    "question": "What is the main purpose of maintaining proper oil cleanliness levels in hydraulic systems?",
+    "options": [
+      "Increase oil temperature",
+      "Prevent component wear and system failure",
+      "Improve oil color",
+      "Increase pump speed"
+    ],
+    "answer": "Prevent component wear and system failure"
+  },
+  {
+    "id": 166,
+    "question": "Which factor has the greatest impact on the effectiveness of a lubrication program?",
+    "options": [
+      "Brand of lubricant",
+      "Correct lubricant selection and application",
+      "Color coding of containers",
+      "Frequency of oil changes only"
+    ],
+    "answer": "Correct lubricant selection and application"
+  },
+  {
+    "id": 167,
+    "question": "What is the primary hazard when working with stored mechanical energy such as springs or flywheels?",
+    "options": [
+      "Reduced equipment efficiency",
+      "Sudden uncontrolled release causing injury",
+      "Excessive lubrication",
+      "Noise exposure"
+    ],
+    "answer": "Sudden uncontrolled release causing injury"
+  },
+  {
+    "id": 168,
+    "question": "Which maintenance activity focuses on restoring equipment to its original operating condition after failure?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance",
+      "Condition-based maintenance"
+    ],
+    "answer": "Corrective maintenance"
+  },
+  {
+    "id": 169,
+    "question": "What is the primary reason for tagging and isolating energy sources before maintenance?",
+    "options": [
+      "Improve efficiency",
+      "Prevent accidental energization",
+      "Reduce downtime",
+      "Simplify documentation"
+    ],
+    "answer": "Prevent accidental energization"
+  },
+  {
+    "id": 170,
+    "question": "Which type of inspection uses heat patterns to identify abnormal operating conditions?",
+    "options": [
+      "Ultrasonic inspection",
+      "Infrared thermography",
+      "Visual inspection",
+      "Radiographic testing"
+    ],
+    "answer": "Infrared thermography"
+  },
+  {
+    "id": 171,
+    "question": "What is the primary function of a mechanical key in a shaft-hub connection?",
+    "options": [
+      "Align the shaft",
+      "Transmit torque between shaft and hub",
+      "Reduce vibration",
+      "Support axial loads"
+    ],
+    "answer": "Transmit torque between shaft and hub"
+  },
+  {
+    "id": 172,
+    "question": "Which type of maintenance data is most useful for trend analysis and reliability improvement?",
+    "options": [
+      "One-time inspection reports",
+      "Historical maintenance records",
+      "Purchase invoices",
+      "Equipment manuals"
+    ],
+    "answer": "Historical maintenance records"
+  },
+  {
+    "id": 173,
+    "question": "What is the primary purpose of a pressure gauge in industrial systems?",
+    "options": [
+      "Control fluid flow",
+      "Measure system pressure",
+      "Store energy",
+      "Reduce pressure automatically"
+    ],
+    "answer": "Measure system pressure"
+  },
+  {
+    "id": 174,
+    "question": "Which component is most commonly used to absorb shock loads in mechanical systems?",
+    "options": [
+      "Rigid coupling",
+      "Spring",
+      "Shaft",
+      "Bearing"
+    ],
+    "answer": "Spring"
+  },
+  {
+    "id": 175,
+    "question": "What is the primary advantage of conducting root cause analysis after repeated equipment failures?",
+    "options": [
+      "Assign blame",
+      "Eliminate underlying causes and prevent recurrence",
+      "Reduce maintenance staffing",
+      "Increase spare parts inventory"
+    ],
+    "answer": "Eliminate underlying causes and prevent recurrence"
+  },
+  {
+    "id": 176,
+    "question": "Which safety device is specifically designed to stop machinery in emergency situations?",
+    "options": [
+      "Limit switch",
+      "Emergency stop push button",
+      "Proximity sensor",
+      "Pressure switch"
+    ],
+    "answer": "Emergency stop push button"
+  },
+  {
+    "id": 177,
+    "question": "What is the main purpose of maintaining correct belt alignment in belt-driven systems?",
+    "options": [
+      "Improve visual appearance",
+      "Prevent premature belt wear and power loss",
+      "Increase operating speed",
+      "Reduce lubrication needs"
+    ],
+    "answer": "Prevent premature belt wear and power loss"
+  },
+  {
+    "id": 178,
+    "question": "Which maintenance approach emphasizes operator involvement in routine care and inspection?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Total productive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Total productive maintenance"
+  },
+  {
+    "id": 179,
+    "question": "What is the primary safety concern when working on hydraulic systems under pressure?",
+    "options": [
+      "Oil contamination",
+      "Injection injuries from high-pressure fluid",
+      "Noise exposure",
+      "Reduced oil viscosity"
+    ],
+    "answer": "Injection injuries from high-pressure fluid"
+  },
+  {
+    "id": 180,
+    "question": "Which performance metric is commonly used to evaluate maintenance effectiveness?",
+    "options": [
+      "Mean Time Between Failures (MTBF)",
+      "Purchase cost",
+      "Machine color",
+      "Operator experience"
+    ],
+    "answer": "Mean Time Between Failures (MTBF)"
+  },
+  {
+    "id": 181,
+    "question": "What is the primary purpose of conducting periodic inspections on lifting equipment such as cranes and hoists?",
+    "options": [
+      "Increase lifting speed",
+      "Ensure structural integrity and safe operation",
+      "Reduce operator workload",
+      "Improve equipment appearance"
+    ],
+    "answer": "Ensure structural integrity and safe operation"
+  },
+  {
+    "id": 182,
+    "question": "Which condition most commonly leads to premature failure of wire ropes used in lifting operations?",
+    "options": [
+      "Correct lubrication",
+      "Overloading and improper handling",
+      "Proper storage",
+      "Correct reeving"
+    ],
+    "answer": "Overloading and improper handling"
+  },
+  {
+    "id": 183,
+    "question": "What is the main purpose of marking safe working load (SWL) on lifting equipment?",
+    "options": [
+      "Improve visibility",
+      "Indicate maximum permissible load for safe operation",
+      "Increase equipment resale value",
+      "Reduce inspection frequency"
+    ],
+    "answer": "Indicate maximum permissible load for safe operation"
+  },
+  {
+    "id": 184,
+    "question": "Which inspection method is most effective for detecting corrosion inside hollow structural members?",
+    "options": [
+      "Visual inspection",
+      "Radiographic testing",
+      "Magnetic particle testing",
+      "Dye penetrant testing"
+    ],
+    "answer": "Radiographic testing"
+  },
+  {
+    "id": 185,
+    "question": "What is the primary reason for maintaining correct chain lubrication in chain drives?",
+    "options": [
+      "Increase chain weight",
+      "Reduce wear between pins and bushings",
+      "Improve chain color",
+      "Increase noise level"
+    ],
+    "answer": "Reduce wear between pins and bushings"
+  },
+  {
+    "id": 186,
+    "question": "Which factor has the greatest influence on the fatigue life of mechanical components?",
+    "options": [
+      "Surface finish and stress concentration",
+      "Component color",
+      "Ambient lighting",
+      "Operator skill only"
+    ],
+    "answer": "Surface finish and stress concentration"
+  },
+  {
+    "id": 187,
+    "question": "What is the main function of a shock absorber in mechanical systems?",
+    "options": [
+      "Increase system speed",
+      "Dampen vibrations and absorb impact energy",
+      "Store mechanical energy permanently",
+      "Increase stiffness"
+    ],
+    "answer": "Dampen vibrations and absorb impact energy"
+  },
+  {
+    "id": 188,
+    "question": "Which maintenance practice focuses on improving equipment reliability through design and operational changes?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Reliability-centered maintenance",
+      "Breakdown maintenance"
+    ],
+    "answer": "Reliability-centered maintenance"
+  },
+  {
+    "id": 189,
+    "question": "What is the primary safety concern when using compressed air for cleaning purposes?",
+    "options": [
+      "Low air temperature",
+      "Risk of injury from high-pressure air and flying debris",
+      "Increased lubrication",
+      "Reduced cleaning efficiency"
+    ],
+    "answer": "Risk of injury from high-pressure air and flying debris"
+  },
+  {
+    "id": 190,
+    "question": "Which instrument is commonly used to measure angular displacement or rotation?",
+    "options": [
+      "Tachometer",
+      "Protractor",
+      "Dial indicator",
+      "Micrometer"
+    ],
+    "answer": "Protractor"
+  },
+  {
+    "id": 191,
+    "question": "What is the primary purpose of grounding rotating machinery and electrical equipment?",
+    "options": [
+      "Increase power consumption",
+      "Provide a safe path for fault current",
+      "Improve motor efficiency",
+      "Reduce vibration"
+    ],
+    "answer": "Provide a safe path for fault current"
+  },
+  {
+    "id": 192,
+    "question": "Which condition can result from inadequate cooling of electric motors?",
+    "options": [
+      "Reduced torque",
+      "Overheating and insulation breakdown",
+      "Improved efficiency",
+      "Lower current draw"
+    ],
+    "answer": "Overheating and insulation breakdown"
+  },
+  {
+    "id": 193,
+    "question": "What is the main purpose of periodic torque verification on critical fasteners?",
+    "options": [
+      "Increase bolt length",
+      "Ensure fasteners remain tightened to specification",
+      "Improve joint appearance",
+      "Reduce installation time"
+    ],
+    "answer": "Ensure fasteners remain tightened to specification"
+  },
+  {
+    "id": 194,
+    "question": "Which type of coupling is commonly used to connect shafts that are not perfectly aligned but operate at high speed?",
+    "options": [
+      "Rigid coupling",
+      "Flexible coupling",
+      "Universal coupling",
+      "Chain coupling"
+    ],
+    "answer": "Flexible coupling"
+  },
+  {
+    "id": 195,
+    "question": "What is the primary function of a lubrication chart displayed near machinery?",
+    "options": [
+      "Decorate the work area",
+      "Provide clear guidance on lubrication points and intervals",
+      "Reduce inspection frequency",
+      "Increase operator responsibility only"
+    ],
+    "answer": "Provide clear guidance on lubrication points and intervals"
+  },
+  {
+    "id": 196,
+    "question": "Which hazard is most associated with unguarded rotating couplings?",
+    "options": [
+      "Electrical shock",
+      "Entanglement of clothing or body parts",
+      "Noise exposure",
+      "Chemical exposure"
+    ],
+    "answer": "Entanglement of clothing or body parts"
+  },
+  {
+    "id": 197,
+    "question": "What is the main advantage of condition monitoring compared to time-based maintenance?",
+    "options": [
+      "Higher maintenance cost",
+      "Maintenance based on actual equipment condition",
+      "More frequent component replacement",
+      "Reduced data collection"
+    ],
+    "answer": "Maintenance based on actual equipment condition"
+  },
+  {
+    "id": 198,
+    "question": "Which inspection technique is most effective for detecting early-stage electrical faults in motors?",
+    "options": [
+      "Visual inspection",
+      "Infrared thermography",
+      "Magnetic particle testing",
+      "Dye penetrant testing"
+    ],
+    "answer": "Infrared thermography"
+  },
+  {
+    "id": 199,
+    "question": "What is the primary purpose of a flywheel in mechanical systems?",
+    "options": [
+      "Increase friction",
+      "Store rotational energy and smooth speed fluctuations",
+      "Reduce torque",
+      "Increase machine noise"
+    ],
+    "answer": "Store rotational energy and smooth speed fluctuations"
+  },
+  {
+    "id": 200,
+    "question": "Which safety practice should always be followed before working on electrically driven machinery?",
+    "options": [
+      "Increase motor speed",
+      "Perform lockout and tagout",
+      "Check lubrication level only",
+      "Reduce load"
+    ],
+    "answer": "Perform lockout and tagout"
+  },
+  {
+    "id": 201,
+    "question": "What is the main purpose of maintaining accurate maintenance records?",
+    "options": [
+      "Increase paperwork",
+      "Support troubleshooting, trend analysis, and compliance",
+      "Reduce technician responsibility",
+      "Improve equipment appearance"
+    ],
+    "answer": "Support troubleshooting, trend analysis, and compliance"
+  },
+  {
+    "id": 202,
+    "question": "Which condition is most likely to cause misalignment between coupled machines over time?",
+    "options": [
+      "Stable foundation",
+      "Thermal growth and soft foot",
+      "Correct installation",
+      "Balanced rotor"
+    ],
+    "answer": "Thermal growth and soft foot"
+  },
+  {
+    "id": 203,
+    "question": "What is the primary purpose of installing guards on rotating shafts?",
+    "options": [
+      "Increase speed",
+      "Prevent accidental contact and entanglement",
+      "Improve lubrication",
+      "Reduce noise only"
+    ],
+    "answer": "Prevent accidental contact and entanglement"
+  },
+  {
+    "id": 204,
+    "question": "Which type of maintenance metric measures the average time taken to repair equipment?",
+    "options": [
+      "MTBF",
+      "MTTR",
+      "OEE",
+      "Availability index"
+    ],
+    "answer": "MTTR"
+  },
+  {
+    "id": 205,
+    "question": "What is the main safety concern when handling heavy loads manually?",
+    "options": [
+      "Equipment damage",
+      "Musculoskeletal injuries",
+      "Reduced productivity",
+      "Noise exposure"
+    ],
+    "answer": "Musculoskeletal injuries"
+  },
+  {
+    "id": 206,
+    "question": "Which device is commonly used to measure rotational speed of shafts?",
+    "options": [
+      "Manometer",
+      "Tachometer",
+      "Thermometer",
+      "Pressure gauge"
+    ],
+    "answer": "Tachometer"
+  },
+  {
+    "id": 207,
+    "question": "What is the primary reason for using color coding in lubrication management systems?",
+    "options": [
+      "Improve aesthetics",
+      "Prevent cross-contamination of lubricants",
+      "Reduce oil consumption",
+      "Increase maintenance cost"
+    ],
+    "answer": "Prevent cross-contamination of lubricants"
+  },
+  {
+    "id": 208,
+    "question": "Which inspection practice helps identify gradual performance degradation over time?",
+    "options": [
+      "One-time inspection",
+      "Trend analysis of condition monitoring data",
+      "Random inspection",
+      "Visual inspection only"
+    ],
+    "answer": "Trend analysis of condition monitoring data"
+  },
+  {
+    "id": 209,
+    "question": "What is the primary benefit of proper machine guarding in industrial environments?",
+    "options": [
+      "Higher machine speed",
+      "Reduced risk of injury to personnel",
+      "Lower maintenance cost only",
+      "Improved machine efficiency"
+    ],
+    "answer": "Reduced risk of injury to personnel"
+  },
+  {
+    "id": 210,
+    "question": "Which maintenance philosophy integrates people, process, and equipment for long-term reliability improvement?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Total productive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Total productive maintenance"
+  },
+  {
+    "page": 211,
+    "question": "What is the primary purpose of using a lockout and tagout (LOTO) system before performing maintenance on industrial machinery?",
+    "options": [
+      "To speed up maintenance activities",
+      "To prevent accidental energization of equipment",
+      "To improve machine efficiency",
+      "To reduce lubrication requirements"
+    ],
+    "answer": "To prevent accidental energization of equipment"
+  },
+  {
+    "page": 212,
+    "question": "Which condition is most likely to cause excessive vibration in rotating machinery during normal operation?",
+    "options": [
+      "Proper shaft alignment",
+      "Rotor imbalance",
+      "Correct bearing lubrication",
+      "Stable machine foundation"
+    ],
+    "answer": "Rotor imbalance"
+  },
+  {
+    "page": 213,
+    "question": "What is the main function of a thrust bearing in heavy rotating equipment such as turbines or compressors?",
+    "options": [
+      "Support radial loads only",
+      "Support axial loads generated by rotating components",
+      "Increase rotational speed",
+      "Reduce power transmission losses"
+    ],
+    "answer": "Support axial loads generated by rotating components"
+  },
+  {
+    "page": 214,
+    "question": "Which inspection technique is most suitable for detecting overheating in electrical motors, switchgear, and control panels?",
+    "options": [
+      "Visual inspection",
+      "Ultrasonic inspection",
+      "Infrared thermography",
+      "Magnetic particle testing"
+    ],
+    "answer": "Infrared thermography"
+  },
+  {
+    "page": 215,
+    "question": "What is the primary safety concern when working with high-pressure hydraulic systems?",
+    "options": [
+      "Noise exposure",
+      "Injection injuries caused by pressurized fluid",
+      "Oil discoloration",
+      "Reduced system efficiency"
+    ],
+    "answer": "Injection injuries caused by pressurized fluid"
+  },
+  {
+    "page": 216,
+    "question": "Which maintenance strategy focuses on identifying equipment faults at an early stage using condition monitoring techniques?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Predictive maintenance"
+  }
+
+]

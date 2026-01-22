@@ -1,0 +1,1488 @@
+[
+  {
+    "page": 1,
+    "question": "What is the safety glass standard in Canada?",
+    "options": [
+      "ASME",
+      "IEEE",
+      "CSA",
+      "ESA"
+    ],
+    "answer": "CSA"
+  },
+  {
+    "page": 2,
+    "question": "What is the reading of Vernier Caliper in the figure?",
+    "options": [
+      "0.546",
+      "0.344",
+      "0.673",
+      "0.466"
+    ],
+    "answer": "0.466"
+  },
+  {
+    "page": 3,
+    "question": "When is the tool-box meeting attended and how should it be?",
+    "options": [
+      "At the end of shift and concise",
+      "In the middle of the shift in full detail",
+      "Before start of shift and concise",
+      "At the break time and very short"
+    ],
+    "answer": "Before start of shift and concise"
+  },
+  {
+    "page": 4,
+    "question": "What does the following indicate that apprentice has understood the instruction?",
+    "options": [
+      "Having written confirmation from apprentice",
+      "He starts work directly after listening",
+      "He listens carefully and gives verbal confirmation",
+      "He uses the right tools for the work"
+    ],
+    "answer": "He listens carefully and gives verbal confirmation"
+  },
+  {
+    "page": 5,
+    "question": "A compressor decommissioned and stored in high vibration area, what will be the effect on bearing?",
+    "options": [
+      "Corrosion",
+      "Pitting",
+      "Brinelling of bearing",
+      "False brinelling of bearing"
+    ],
+    "answer": "False brinelling of bearing"
+  },
+  {
+    "page": 6,
+    "question": "Which blade is used to cut 1/16\" width of steel plate?",
+    "options": [
+      "14 TPI",
+      "18 TPI",
+      "24 TPI",
+      "32 TPI"
+    ],
+    "answer": "24 TPI"
+  },
+  {
+    "page": 7,
+    "question": "Which one of the following is the preferred method to detect internal cracks in aluminium fan?",
+    "options": [
+      "Ultrasonic",
+      "X-ray",
+      "Visual",
+      "Dye penetration"
+    ],
+    "answer": "Ultrasonic"
+  },
+  {
+    "page": 8,
+    "question": "Which one of the following method is preferred for finding defects in pipes?",
+    "options": [
+      "Ultrasonic",
+      "X-ray",
+      "Dye penetration",
+      "Magnetic particle"
+    ],
+    "answer": "Ultrasonic"
+  },
+  {
+    "page": 9,
+    "question": "While doing laser alignment what is the primary cause of error in magnitude from electronic circuit of laser alignment?",
+    "options": [
+      "Lens focus",
+      "Long distance",
+      "Electromagnetic interference or nearby heat source",
+      "Vibration"
+    ],
+    "answer": "Electromagnetic interference or nearby heat source"
+  },
+  {
+    "page": 10,
+    "question": "What is the cause in the figure if double acting hydraulic cylinder is moving only right but not returning left properly?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": null
+  },
+  {
+    "page": 11,
+    "question": "In a hydraulic system to operate 17 GPM pump, there is 17 gallon fluid in the reservoir and system is running hot. What is the reason?",
+    "options": [
+      "Too much load on system",
+      "Improper ventilation in plant",
+      "Insufficient reservoir capacity",
+      "Too much vibration in the plant"
+    ],
+    "answer": "Insufficient reservoir capacity"
+  },
+  {
+    "page": 12,
+    "question": "Which drawing will you refer to while installing a new machine?",
+    "options": [
+      "Technical drawing",
+      "Design drawing",
+      "Installation drawing",
+      "Engineering drawing"
+    ],
+    "answer": "Installation drawing"
+  },
+  {
+    "page": 13,
+    "question": "Which one of the following is used to protect slings from sharp objects?",
+    "options": [
+      "Equalizer beam",
+      "Soft corner",
+      "Bridle hitch",
+      "Turn buckle"
+    ],
+    "answer": "Soft corner"
+  },
+  {
+    "page": 14,
+    "question": "Which one of the following method is used to lift a base load for longer time?",
+    "options": [
+      "Single basket hitch",
+      "Double wrap",
+      "Single choker hitch",
+      "Single wrap"
+    ],
+    "answer": "Double wrap"
+  },
+  {
+    "page": 15,
+    "question": "Which of the following is non-sensory method to identify a potential problem in the machine?",
+    "options": [
+      "Vibratory",
+      "Visual",
+      "Auditory",
+      "Infra-red"
+    ],
+    "answer": "Infra-red"
+  },
+  {
+    "page": 16,
+    "question": "What will be the load on the sling in the figure?",
+    "options": [
+      "2000 lb",
+      "1414 lb",
+      "707 lb",
+      "1000 lb"
+    ],
+    "answer": "707 lb"
+  },
+  {
+    "page": 17,
+    "question": "In multiple pulley system mechanical advantage can be increased by?",
+    "options": [
+      "Adding more parts of line or rope",
+      "Adding more distance",
+      "Adding larger diameter pulley",
+      "Reducing the number of line"
+    ],
+    "answer": "Adding more parts of line or rope"
+  },
+  {
+    "page": 18,
+    "question": "What does number 2 represent in EP2 type grease?",
+    "options": [
+      "Viscosity number",
+      "Hardness number",
+      "Penetration rating",
+      "Adhesive rating"
+    ],
+    "answer": "Penetration rating"
+  },
+  {
+    "page": 19,
+    "question": "At normal atmospheric pressure a reciprocating compressor delivers 120 cfm with 4% reduction at 100 psi. How much intake is required?",
+    "options": [
+      "720 cfm",
+      "720 kPa",
+      "20 psi",
+      "20 cfm"
+    ],
+    "answer": "720 cfm"
+  },
+  {
+    "page": 20,
+    "question": "What is the diameter of the cylinder if there is 2400 lb force and 240 psi line pressure?",
+    "options": [
+      "1.8\"",
+      "2.5\"",
+      "3.6\"",
+      "7.2\""
+    ],
+    "answer": "3.6\""
+  },
+  {
+    "page": 21,
+    "question": "Which type of fire extinguisher is used for electrical fires?",
+    "options": ["Water", "Foam", "CO2", "Wet chemical"],
+    "answer": "CO2"
+  },
+  {
+    "page": 22,
+    "question": "What is the purpose of lockout and tagout procedure?",
+    "options": [
+      "To increase machine efficiency",
+      "To prevent accidental start-up",
+      "To reduce maintenance time",
+      "To improve production rate"
+    ],
+    "answer": "To prevent accidental start-up"
+  },
+  {
+    "page": 23,
+    "question": "Which instrument is used to measure shaft alignment?",
+    "options": ["Dial gauge", "Micrometer", "Vernier caliper", "Feeler gauge"],
+    "answer": "Dial gauge"
+  },
+  {
+    "page": 24,
+    "question": "What type of bearing is used to carry both radial and axial load?",
+    "options": [
+      "Ball bearing",
+      "Roller bearing",
+      "Thrust bearing",
+      "Angular contact bearing"
+    ],
+    "answer": "Angular contact bearing"
+  },
+  {
+    "page": 25,
+    "question": "Which lubricant property helps in reducing friction?",
+    "options": ["Viscosity", "Flash point", "Pour point", "Density"],
+    "answer": "Viscosity"
+  },
+  {
+    "page": 26,
+    "question": "What is the main function of a relief valve in hydraulic system?",
+    "options": [
+      "Increase pressure",
+      "Reduce temperature",
+      "Protect system from overpressure",
+      "Control flow rate"
+    ],
+    "answer": "Protect system from overpressure"
+  },
+  {
+    "page": 27,
+    "question": "Which NDT method is suitable for detecting surface cracks?",
+    "options": [
+      "Radiography",
+      "Ultrasonic testing",
+      "Dye penetrant testing",
+      "Eddy current testing"
+    ],
+    "answer": "Dye penetrant testing"
+  },
+  {
+    "page": 28,
+    "question": "What happens if air is present in a hydraulic system?",
+    "options": [
+      "Smooth operation",
+      "Erratic movement",
+      "Higher efficiency",
+      "Lower noise"
+    ],
+    "answer": "Erratic movement"
+  },
+  {
+    "page": 29,
+    "question": "Which tool is used to check flatness of surface?",
+    "options": [
+      "Straight edge",
+      "Try square",
+      "Bevel protractor",
+      "Depth gauge"
+    ],
+    "answer": "Straight edge"
+  },
+  {
+    "page": 30,
+    "question": "What is the unit of flow rate in hydraulic system?",
+    "options": ["PSI", "GPM", "HP", "RPM"],
+    "answer": "GPM"
+  },
+  {
+    "page": 31,
+    "question": "Which type of coupling allows angular misalignment?",
+    "options": [
+      "Rigid coupling",
+      "Flange coupling",
+      "Universal coupling",
+      "Sleeve coupling"
+    ],
+    "answer": "Universal coupling"
+  },
+  {
+    "page": 32,
+    "question": "What is the function of a breather in hydraulic reservoir?",
+    "options": [
+      "Filter oil",
+      "Release pressure",
+      "Allow air exchange",
+      "Cool the fluid"
+    ],
+    "answer": "Allow air exchange"
+  },
+  {
+    "page": 33,
+    "question": "Which gas is commonly used in arc welding?",
+    "options": ["Oxygen", "Nitrogen", "Argon", "Carbon monoxide"],
+    "answer": "Argon"
+  },
+  {
+    "page": 34,
+    "question": "What is the main cause of cavitation in pumps?",
+    "options": [
+      "High discharge pressure",
+      "Low suction pressure",
+      "High oil temperature",
+      "Excess lubrication"
+    ],
+    "answer": "Low suction pressure"
+  },
+  {
+    "page": 35,
+    "question": "Which measuring instrument is used for internal diameter?",
+    "options": [
+      "Outside micrometer",
+      "Inside micrometer",
+      "Vernier height gauge",
+      "Feeler gauge"
+    ],
+    "answer": "Inside micrometer"
+  },
+  {
+    "page": 36,
+    "question": "What is the main advantage of preventive maintenance?",
+    "options": [
+      "Higher breakdown rate",
+      "Lower equipment life",
+      "Reduced downtime",
+      "Increased repair cost"
+    ],
+    "answer": "Reduced downtime"
+  },
+  {
+    "page": 37,
+    "question": "Which safety device is used to stop machine immediately in emergency?",
+    "options": [
+      "Limit switch",
+      "Proximity switch",
+      "Emergency stop switch",
+      "Pressure switch"
+    ],
+    "answer": "Emergency stop switch"
+  },
+  {
+    "page": 38,
+    "question": "What does PPE stand for?",
+    "options": [
+      "Personal Protective Equipment",
+      "Professional Power Equipment",
+      "Personal Power Element",
+      "Protective Process Equipment"
+    ],
+    "answer": "Personal Protective Equipment"
+  },
+  {
+    "page": 39,
+    "question": "Which metal is non-magnetic?",
+    "options": ["Iron", "Nickel", "Cobalt", "Aluminium"],
+    "answer": "Aluminium"
+  },
+  {
+    "page": 40,
+    "question": "What is the purpose of grounding in electrical systems?",
+    "options": [
+      "Increase voltage",
+      "Reduce current",
+      "Provide safety path for fault current",
+      "Improve power factor"
+    ],
+    "answer": "Provide safety path for fault current"
+  },
+  {
+    "page": 41,
+    "question": "Which instrument is used to measure electrical resistance?",
+    "options": ["Ammeter", "Voltmeter", "Ohmmeter", "Wattmeter"],
+    "answer": "Ohmmeter"
+  },
+  {
+    "page": 42,
+    "question": "What is the function of a flywheel?",
+    "options": [
+      "Store electrical energy",
+      "Store kinetic energy",
+      "Reduce friction",
+      "Increase speed"
+    ],
+    "answer": "Store kinetic energy"
+  },
+  {
+    "page": 43,
+    "question": "Which type of pump is commonly used in hydraulic systems?",
+    "options": [
+      "Centrifugal pump",
+      "Gear pump",
+      "Reciprocating pump",
+      "Jet pump"
+    ],
+    "answer": "Gear pump"
+  },
+  {
+    "page": 44,
+    "question": "What does ISO stand for?",
+    "options": [
+      "International Standards Organization",
+      "International System Organization",
+      "International Organization for Standardization",
+      "Indian Standards Organization"
+    ],
+    "answer": "International Organization for Standardization"
+  },
+  {
+    "page": 45,
+    "question": "Which device converts mechanical energy into electrical energy?",
+    "options": [
+      "Motor",
+      "Generator",
+      "Transformer",
+      "Rectifier"
+    ],
+    "answer": "Generator"
+  },
+  {
+    "page": 46,
+    "question": "What is the function of a non-return valve?",
+    "options": [
+      "Control pressure",
+      "Control flow direction",
+      "Reduce temperature",
+      "Increase speed"
+    ],
+    "answer": "Control flow direction"
+  },
+  {
+    "page": 47,
+    "question": "Which metal has the highest electrical conductivity?",
+    "options": ["Copper", "Silver", "Aluminium", "Gold"],
+    "answer": "Silver"
+  },
+  {
+    "page": 48,
+    "question": "What is the purpose of a gasket?",
+    "options": [
+      "Join shafts",
+      "Seal joints",
+      "Reduce vibration",
+      "Transmit power"
+    ],
+    "answer": "Seal joints"
+  },
+  {
+    "page": 49,
+    "question": "Which welding process uses a consumable electrode?",
+    "options": [
+      "TIG welding",
+      "MIG welding",
+      "Gas welding",
+      "Plasma welding"
+    ],
+    "answer": "MIG welding"
+  },
+  {
+    "page": 50,
+    "question": "What is the main function of lubrication?",
+    "options": [
+      "Increase friction",
+      "Reduce wear and friction",
+      "Increase temperature",
+      "Prevent corrosion only"
+    ],
+    "answer": "Reduce wear and friction"
+  },
+  {
+    "page": 51,
+    "question": "Which instrument is used to measure pressure?",
+    "options": ["Thermometer", "Manometer", "Hygrometer", "Anemometer"],
+    "answer": "Manometer"
+  },
+  {
+    "page": 52,
+    "question": "What is meant by preventive maintenance?",
+    "options": [
+      "Maintenance after breakdown",
+      "Maintenance to prevent failure",
+      "Emergency repair",
+      "Replacement only"
+    ],
+    "answer": "Maintenance to prevent failure"
+  },
+  {
+    "page": 53,
+    "question": "Which component controls speed of hydraulic actuator?",
+    "options": [
+      "Pressure valve",
+      "Flow control valve",
+      "Relief valve",
+      "Check valve"
+    ],
+    "answer": "Flow control valve"
+  },
+  {
+    "page": 54,
+    "question": "Which fire class involves flammable liquids?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": "Class B"
+  },
+  {
+    "page": 55,
+    "question": "What does RPM stand for?",
+    "options": [
+      "Revolutions per minute",
+      "Rate per movement",
+      "Rotations per meter",
+      "Revolutions per meter"
+    ],
+    "answer": "Revolutions per minute"
+  },
+  {
+    "page": 56,
+    "question": "Which safety sign indicates mandatory action?",
+    "options": [
+      "Red circular sign",
+      "Blue circular sign",
+      "Yellow triangular sign",
+      "Green square sign"
+    ],
+    "answer": "Blue circular sign"
+  },
+  {
+    "page": 57,
+    "question": "Which type of maintenance is carried out while equipment is running?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Predictive maintenance"
+  },
+  {
+    "page": 58,
+    "question": "What is the function of a pressure gauge?",
+    "options": [
+      "Measure flow",
+      "Measure pressure",
+      "Measure temperature",
+      "Measure speed"
+    ],
+    "answer": "Measure pressure"
+  },
+  {
+    "page": 59,
+    "question": "Which electrical device protects circuit from overload?",
+    "options": [
+      "Switch",
+      "Relay",
+      "Fuse",
+      "Socket"
+    ],
+    "answer": "Fuse"
+  },
+  {
+    "page": 60,
+    "question": "Which material is commonly used for insulation of electrical wires?",
+    "options": [
+      "Copper",
+      "Aluminium",
+      "PVC",
+      "Steel"
+    ],
+    "answer": "PVC"
+  },
+  {
+    "page": 61,
+    "question": "Which instrument is used to measure temperature?",
+    "options": ["Thermometer", "Barometer", "Manometer", "Hygrometer"],
+    "answer": "Thermometer"
+  },
+  {
+    "page": 62,
+    "question": "What is the main function of a transformer?",
+    "options": [
+      "Convert AC to DC",
+      "Change voltage level",
+      "Store electrical energy",
+      "Measure current"
+    ],
+    "answer": "Change voltage level"
+  },
+  {
+    "page": 63,
+    "question": "Which type of current is supplied to households?",
+    "options": [
+      "Direct current",
+      "Alternating current",
+      "Pulsating current",
+      "Static current"
+    ],
+    "answer": "Alternating current"
+  },
+  {
+    "page": 64,
+    "question": "Which component is used to convert AC to DC?",
+    "options": ["Transformer", "Rectifier", "Inverter", "Regulator"],
+    "answer": "Rectifier"
+  },
+  {
+    "page": 65,
+    "question": "What is the purpose of insulation in electrical systems?",
+    "options": [
+      "Increase current",
+      "Prevent leakage of current",
+      "Reduce voltage",
+      "Improve conductivity"
+    ],
+    "answer": "Prevent leakage of current"
+  },
+  {
+    "page": 66,
+    "question": "Which measuring tool is used to check angle?",
+    "options": [
+      "Try square",
+      "Bevel protractor",
+      "Straight edge",
+      "Vernier caliper"
+    ],
+    "answer": "Bevel protractor"
+  },
+  {
+    "page": 67,
+    "question": "What does CNC stand for?",
+    "options": [
+      "Computer Numerical Control",
+      "Central Network Control",
+      "Computer Network Controller",
+      "Controlled Numerical Computer"
+    ],
+    "answer": "Computer Numerical Control"
+  },
+  {
+    "page": 68,
+    "question": "Which gas is used for shielding in MIG welding?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "page": 69,
+    "question": "What is the function of a coupling?",
+    "options": [
+      "Support shafts",
+      "Join two shafts",
+      "Change direction of rotation",
+      "Reduce speed"
+    ],
+    "answer": "Join two shafts"
+  },
+  {
+    "page": 70,
+    "question": "Which type of bearing reduces friction by rolling action?",
+    "options": [
+      "Plain bearing",
+      "Journal bearing",
+      "Rolling contact bearing",
+      "Thrust bearing"
+    ],
+    "answer": "Rolling contact bearing"
+  },
+  {
+    "page": 71,
+    "question": "Which safety device protects eyes from sparks?",
+    "options": [
+      "Helmet",
+      "Safety goggles",
+      "Hand gloves",
+      "Ear plugs"
+    ],
+    "answer": "Safety goggles"
+  },
+  {
+    "page": 72,
+    "question": "What is the main cause of wear in machine parts?",
+    "options": [
+      "Excess lubrication",
+      "Friction",
+      "Low temperature",
+      "High voltage"
+    ],
+    "answer": "Friction"
+  },
+  {
+    "page": 73,
+    "question": "Which fire extinguisher is suitable for flammable liquids?",
+    "options": ["Water", "Foam", "CO2", "Dry powder"],
+    "answer": "Foam"
+  },
+  {
+    "page": 74,
+    "question": "Which unit is used to measure electrical power?",
+    "options": ["Volt", "Ampere", "Watt", "Ohm"],
+    "answer": "Watt"
+  },
+  {
+    "page": 75,
+    "question": "What is the purpose of earthing in electrical installations?",
+    "options": [
+      "Increase voltage",
+      "Reduce resistance",
+      "Provide safety against electric shock",
+      "Improve efficiency"
+    ],
+    "answer": "Provide safety against electric shock"
+  },
+  {
+    "page": 76,
+    "question": "Which maintenance strategy predicts failure before it occurs?",
+    "options": [
+      "Breakdown maintenance",
+      "Corrective maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance"
+    ],
+    "answer": "Predictive maintenance"
+  },
+  {
+    "page": 77,
+    "question": "Which device is used to measure humidity?",
+    "options": ["Hygrometer", "Thermometer", "Anemometer", "Barometer"],
+    "answer": "Hygrometer"
+  },
+  {
+    "page": 78,
+    "question": "Which type of valve allows flow in one direction only?",
+    "options": [
+      "Relief valve",
+      "Flow control valve",
+      "Check valve",
+      "Pressure valve"
+    ],
+    "answer": "Check valve"
+  },
+  {
+    "page": 79,
+    "question": "What is the main purpose of ventilation in workshops?",
+    "options": [
+      "Increase temperature",
+      "Remove fumes and dust",
+      "Reduce lighting",
+      "Increase noise"
+    ],
+    "answer": "Remove fumes and dust"
+  },
+  {
+    "page": 80,
+    "question": "Which tool is used to tighten nuts and bolts?",
+    "options": ["Hammer", "Spanner", "Chisel", "Punch"],
+    "answer": "Spanner"
+  },
+  {
+    "page": 81,
+    "question": "Which instrument is used to measure speed of rotation?",
+    "options": ["Tachometer", "Speedometer", "Anemometer", "Manometer"],
+    "answer": "Tachometer"
+  },
+  {
+    "page": 82,
+    "question": "What is the main function of a clutch?",
+    "options": [
+      "Increase speed",
+      "Engage and disengage power transmission",
+      "Reduce vibration",
+      "Change direction of motion"
+    ],
+    "answer": "Engage and disengage power transmission"
+  },
+  {
+    "page": 83,
+    "question": "Which type of gear is used to transmit motion between intersecting shafts?",
+    "options": ["Spur gear", "Helical gear", "Bevel gear", "Worm gear"],
+    "answer": "Bevel gear"
+  },
+  {
+    "page": 84,
+    "question": "What is the purpose of a pressure relief valve?",
+    "options": [
+      "Increase pressure",
+      "Maintain constant flow",
+      "Protect system from excessive pressure",
+      "Reduce noise"
+    ],
+    "answer": "Protect system from excessive pressure"
+  },
+  {
+    "page": 85,
+    "question": "Which material is commonly used for making cutting tools?",
+    "options": [
+      "Mild steel",
+      "High speed steel",
+      "Cast iron",
+      "Aluminium"
+    ],
+    "answer": "High speed steel"
+  },
+  {
+    "page": 86,
+    "question": "Which NDT method is suitable for detecting internal defects in thick materials?",
+    "options": [
+      "Visual inspection",
+      "Dye penetrant testing",
+      "Ultrasonic testing",
+      "Magnetic particle testing"
+    ],
+    "answer": "Ultrasonic testing"
+  },
+  {
+    "page": 87,
+    "question": "What is the function of a heat exchanger?",
+    "options": [
+      "Store heat",
+      "Transfer heat between fluids",
+      "Generate heat",
+      "Reduce pressure"
+    ],
+    "answer": "Transfer heat between fluids"
+  },
+  {
+    "page": 88,
+    "question": "Which unit is used to measure pressure?",
+    "options": ["Pascal", "Joule", "Watt", "Newton"],
+    "answer": "Pascal"
+  },
+  {
+    "page": 89,
+    "question": "Which electrical component limits current in a circuit?",
+    "options": ["Capacitor", "Inductor", "Resistor", "Transformer"],
+    "answer": "Resistor"
+  },
+  {
+    "page": 90,
+    "question": "What is the purpose of a flyback diode?",
+    "options": [
+      "Increase voltage",
+      "Protect circuit from voltage spikes",
+      "Reduce current",
+      "Improve efficiency"
+    ],
+    "answer": "Protect circuit from voltage spikes"
+  },
+  {
+    "page": 91,
+    "question": "Which lifting device uses a chain to lift loads?",
+    "options": ["Hydraulic jack", "Chain hoist", "Screw jack", "Pulley block"],
+    "answer": "Chain hoist"
+  },
+  {
+    "page": 92,
+    "question": "What is the main function of a governor?",
+    "options": [
+      "Increase speed",
+      "Maintain constant speed",
+      "Reduce load",
+      "Stop engine"
+    ],
+    "answer": "Maintain constant speed"
+  },
+  {
+    "page": 93,
+    "question": "Which metal is commonly used for electrical wiring?",
+    "options": ["Iron", "Copper", "Lead", "Tin"],
+    "answer": "Copper"
+  },
+  {
+    "page": 94,
+    "question": "Which safety equipment protects hearing?",
+    "options": ["Helmet", "Ear plugs", "Safety shoes", "Face shield"],
+    "answer": "Ear plugs"
+  },
+  {
+    "page": 95,
+    "question": "What is the function of a limit switch?",
+    "options": [
+      "Measure temperature",
+      "Detect position or movement",
+      "Control pressure",
+      "Measure speed"
+    ],
+    "answer": "Detect position or movement"
+  },
+  {
+    "page": 96,
+    "question": "Which welding process uses non-consumable electrode?",
+    "options": ["MIG welding", "TIG welding", "Arc welding", "Gas welding"],
+    "answer": "TIG welding"
+  },
+  {
+    "page": 97,
+    "question": "What is the purpose of calibration?",
+    "options": [
+      "Repair instruments",
+      "Adjust accuracy of instruments",
+      "Increase speed",
+      "Reduce cost"
+    ],
+    "answer": "Adjust accuracy of instruments"
+  },
+  {
+    "page": 98,
+    "question": "Which hydraulic component stores energy?",
+    "options": ["Pump", "Actuator", "Accumulator", "Reservoir"],
+    "answer": "Accumulator"
+  },
+  {
+    "page": 99,
+    "question": "Which type of maintenance is done after failure?",
+    "options": [
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Breakdown maintenance",
+      "Condition-based maintenance"
+    ],
+    "answer": "Breakdown maintenance"
+  },
+  {
+    "page": 100,
+    "question": "Which device converts DC to AC?",
+    "options": ["Rectifier", "Inverter", "Transformer", "Stabilizer"],
+    "answer": "Inverter"
+  },
+  {
+    "page": 101,
+    "question": "Which instrument is used to measure flow rate of fluid?",
+    "options": ["Flow meter", "Pressure gauge", "Thermometer", "Manometer"],
+    "answer": "Flow meter"
+  },
+  {
+    "page": 102,
+    "question": "What is the function of a capacitor in an electrical circuit?",
+    "options": [
+      "Store electrical energy",
+      "Limit current",
+      "Increase voltage",
+      "Reduce resistance"
+    ],
+    "answer": "Store electrical energy"
+  },
+  {
+    "page": 103,
+    "question": "Which type of belt drive is used for long distances?",
+    "options": ["Flat belt", "V-belt", "Timing belt", "Round belt"],
+    "answer": "Flat belt"
+  },
+  {
+    "page": 104,
+    "question": "What is the main purpose of a heat treatment process?",
+    "options": [
+      "Improve material properties",
+      "Increase size of component",
+      "Reduce weight",
+      "Improve surface finish only"
+    ],
+    "answer": "Improve material properties"
+  },
+  {
+    "page": 105,
+    "question": "Which device is used to measure vibration?",
+    "options": ["Vibrometer", "Thermometer", "Tachometer", "Barometer"],
+    "answer": "Vibrometer"
+  },
+  {
+    "page": 106,
+    "question": "Which type of maintenance uses condition monitoring tools?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Predictive maintenance"
+  },
+  {
+    "page": 107,
+    "question": "Which gas is used in oxy-acetylene welding?",
+    "options": ["Hydrogen", "Acetylene", "Nitrogen", "Argon"],
+    "answer": "Acetylene"
+  },
+  {
+    "page": 108,
+    "question": "What is the function of a bearing?",
+    "options": [
+      "Increase friction",
+      "Support rotating shafts",
+      "Increase speed",
+      "Reduce load"
+    ],
+    "answer": "Support rotating shafts"
+  },
+  {
+    "page": 109,
+    "question": "Which electrical safety device protects against earth leakage?",
+    "options": ["MCB", "ELCB/RCCB", "Fuse", "Relay"],
+    "answer": "ELCB/RCCB"
+  },
+  {
+    "page": 110,
+    "question": "Which measuring instrument is used to measure thickness?",
+    "options": [
+      "Vernier caliper",
+      "Micrometer",
+      "Depth gauge",
+      "Bevel protractor"
+    ],
+    "answer": "Micrometer"
+  },
+  {
+    "page": 111,
+    "question": "What is the purpose of a hydraulic accumulator?",
+    "options": [
+      "Store hydraulic energy",
+      "Filter oil",
+      "Control flow",
+      "Increase pressure continuously"
+    ],
+    "answer": "Store hydraulic energy"
+  },
+  {
+    "page": 112,
+    "question": "Which fire extinguisher is used for metal fires?",
+    "options": ["Water", "Foam", "CO2", "Dry powder"],
+    "answer": "Dry powder"
+  },
+  {
+    "page": 113,
+    "question": "What does PLC stand for?",
+    "options": [
+      "Programmable Logic Controller",
+      "Process Logic Circuit",
+      "Power Line Controller",
+      "Programmable Load Control"
+    ],
+    "answer": "Programmable Logic Controller"
+  },
+  {
+    "page": 114,
+    "question": "Which material is commonly used for making gears?",
+    "options": ["Plastic", "Cast iron", "Wood", "Rubber"],
+    "answer": "Cast iron"
+  },
+  {
+    "page": 115,
+    "question": "What is the main function of a conveyor system?",
+    "options": [
+      "Store materials",
+      "Transport materials",
+      "Lift heavy loads",
+      "Measure weight"
+    ],
+    "answer": "Transport materials"
+  },
+  {
+    "page": 116,
+    "question": "Which type of valve regulates flow rate?",
+    "options": [
+      "Relief valve",
+      "Check valve",
+      "Flow control valve",
+      "Pressure valve"
+    ],
+    "answer": "Flow control valve"
+  },
+  {
+    "page": 117,
+    "question": "Which unit is used to measure frequency?",
+    "options": ["Hertz", "Ampere", "Volt", "Ohm"],
+    "answer": "Hertz"
+  },
+  {
+    "page": 118,
+    "question": "Which device converts mechanical energy to hydraulic energy?",
+    "options": ["Hydraulic motor", "Hydraulic pump", "Actuator", "Cylinder"],
+    "answer": "Hydraulic pump"
+  },
+  {
+    "page": 119,
+    "question": "Which safety sign color indicates danger or prohibition?",
+    "options": ["Blue", "Green", "Yellow", "Red"],
+    "answer": "Red"
+  },
+  {
+    "page": 120,
+    "question": "What is the purpose of a pressure regulator?",
+    "options": [
+      "Increase pressure",
+      "Maintain constant pressure",
+      "Measure pressure",
+      "Control temperature"
+    ],
+    "answer": "Maintain constant pressure"
+  },
+  {
+    "page": 121,
+    "question": "Which instrument is used to measure sound level?",
+    "options": ["Sound level meter", "Anemometer", "Vibrometer", "Lux meter"],
+    "answer": "Sound level meter"
+  },
+  {
+    "page": 122,
+    "question": "What is the main purpose of a silencer in machinery?",
+    "options": [
+      "Increase airflow",
+      "Reduce noise",
+      "Increase pressure",
+      "Improve efficiency"
+    ],
+    "answer": "Reduce noise"
+  },
+  {
+    "page": 123,
+    "question": "Which type of lubrication system uses gravity?",
+    "options": [
+      "Forced lubrication",
+      "Splash lubrication",
+      "Drip lubrication",
+      "Mist lubrication"
+    ],
+    "answer": "Drip lubrication"
+  },
+  {
+    "page": 124,
+    "question": "Which welding defect is caused by trapped gas?",
+    "options": ["Crack", "Porosity", "Undercut", "Overlap"],
+    "answer": "Porosity"
+  },
+  {
+    "page": 125,
+    "question": "Which device is used to measure illumination?",
+    "options": ["Lux meter", "Sound level meter", "Thermometer", "Barometer"],
+    "answer": "Lux meter"
+  },
+  {
+    "page": 126,
+    "question": "What is the main function of a pressure switch?",
+    "options": [
+      "Measure pressure continuously",
+      "Control electrical circuit based on pressure",
+      "Reduce pressure",
+      "Increase flow"
+    ],
+    "answer": "Control electrical circuit based on pressure"
+  },
+  {
+    "page": 127,
+    "question": "Which type of maintenance eliminates the root cause of failure?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Corrective maintenance"
+  },
+  {
+    "page": 128,
+    "question": "Which safety color indicates caution?",
+    "options": ["Red", "Yellow", "Green", "Blue"],
+    "answer": "Yellow"
+  },
+  {
+    "page": 129,
+    "question": "What is the purpose of a flywheel key?",
+    "options": [
+      "Transmit torque",
+      "Reduce vibration",
+      "Store energy",
+      "Increase speed"
+    ],
+    "answer": "Transmit torque"
+  },
+  {
+    "page": 130,
+    "question": "Which type of gear provides high speed reduction?",
+    "options": ["Spur gear", "Helical gear", "Bevel gear", "Worm gear"],
+    "answer": "Worm gear"
+  },
+  {
+    "page": 131,
+    "question": "Which component is used to absorb shock in machinery?",
+    "options": ["Spring", "Gear", "Shaft", "Bearing"],
+    "answer": "Spring"
+  },
+  {
+    "page": 132,
+    "question": "Which measuring instrument is used to measure depth?",
+    "options": [
+      "Vernier depth gauge",
+      "Outside micrometer",
+      "Try square",
+      "Bevel protractor"
+    ],
+    "answer": "Vernier depth gauge"
+  },
+  {
+    "page": 133,
+    "question": "Which fire extinguisher is suitable for Class D fire?",
+    "options": ["Water", "Foam", "CO2", "Dry powder"],
+    "answer": "Dry powder"
+  },
+  {
+    "page": 134,
+    "question": "What is the function of a hydraulic filter?",
+    "options": [
+      "Increase pressure",
+      "Remove contaminants",
+      "Control flow",
+      "Store oil"
+    ],
+    "answer": "Remove contaminants"
+  },
+  {
+    "page": 135,
+    "question": "Which electrical component stores energy in a magnetic field?",
+    "options": ["Capacitor", "Inductor", "Resistor", "Diode"],
+    "answer": "Inductor"
+  },
+  {
+    "page": 136,
+    "question": "Which material is commonly used for making bearings?",
+    "options": ["Bronze", "Aluminium", "Plastic", "Rubber"],
+    "answer": "Bronze"
+  },
+  {
+    "page": 137,
+    "question": "What is the function of a cam?",
+    "options": [
+      "Transmit power",
+      "Convert rotary motion to reciprocating motion",
+      "Reduce speed",
+      "Store energy"
+    ],
+    "answer": "Convert rotary motion to reciprocating motion"
+  },
+  {
+    "page": 138,
+    "question": "Which unit is used to measure torque?",
+    "options": ["Newton-meter", "Joule", "Watt", "Pascal"],
+    "answer": "Newton-meter"
+  },
+  {
+    "page": 139,
+    "question": "Which safety device prevents overloading of lifting equipment?",
+    "options": [
+      "Limit switch",
+      "Overload protector",
+      "Pressure gauge",
+      "Flow valve"
+    ],
+    "answer": "Overload protector"
+  },
+  {
+    "page": 140,
+    "question": "What is the purpose of a breather cap in hydraulic tank?",
+    "options": [
+      "Increase pressure",
+      "Allow air in and out",
+      "Filter oil",
+      "Cool the oil"
+    ],
+    "answer": "Allow air in and out"
+  },
+  {
+    "page": 141,
+    "question": "Which instrument is used to measure pressure in gases and liquids?",
+    "options": ["Manometer", "Thermometer", "Hygrometer", "Anemometer"],
+    "answer": "Manometer"
+  },
+  {
+    "page": 142,
+    "question": "What is the main purpose of insulation on hot surfaces?",
+    "options": [
+      "Increase temperature",
+      "Reduce heat loss",
+      "Increase friction",
+      "Improve appearance"
+    ],
+    "answer": "Reduce heat loss"
+  },
+  {
+    "page": 143,
+    "question": "Which type of welding uses pressure without filler metal?",
+    "options": ["Forge welding", "Arc welding", "MIG welding", "Gas welding"],
+    "answer": "Forge welding"
+  },
+  {
+    "page": 144,
+    "question": "Which component converts linear motion into rotary motion?",
+    "options": ["Cam and follower", "Flywheel", "Coupling", "Bearing"],
+    "answer": "Cam and follower"
+  },
+  {
+    "page": 145,
+    "question": "What is the function of a relief valve?",
+    "options": [
+      "Increase pressure",
+      "Protect system from overpressure",
+      "Control flow",
+      "Store energy"
+    ],
+    "answer": "Protect system from overpressure"
+  },
+  {
+    "page": 146,
+    "question": "Which fire extinguisher is suitable for electrical fires?",
+    "options": ["Water", "Foam", "CO2", "Sand"],
+    "answer": "CO2"
+  },
+  {
+    "page": 147,
+    "question": "Which measuring instrument is used to check run-out?",
+    "options": ["Dial indicator", "Vernier caliper", "Micrometer", "Depth gauge"],
+    "answer": "Dial indicator"
+  },
+  {
+    "page": 148,
+    "question": "Which type of bearing is used for heavy radial loads?",
+    "options": [
+      "Ball bearing",
+      "Roller bearing",
+      "Thrust bearing",
+      "Needle bearing"
+    ],
+    "answer": "Roller bearing"
+  },
+  {
+    "page": 149,
+    "question": "What is the function of a muffler?",
+    "options": [
+      "Increase airflow",
+      "Reduce noise",
+      "Increase pressure",
+      "Improve combustion"
+    ],
+    "answer": "Reduce noise"
+  },
+  {
+    "page": 150,
+    "question": "Which metal is commonly used for making springs?",
+    "options": ["Copper", "Aluminium", "Spring steel", "Brass"],
+    "answer": "Spring steel"
+  },
+  {
+    "page": 151,
+    "question": "Which maintenance activity involves lubrication, tightening, and cleaning?",
+    "options": [
+      "Breakdown maintenance",
+      "Preventive maintenance",
+      "Predictive maintenance",
+      "Corrective maintenance"
+    ],
+    "answer": "Preventive maintenance"
+  },
+  {
+    "page": 152,
+    "question": "Which device is used to measure air velocity?",
+    "options": ["Anemometer", "Manometer", "Barometer", "Hygrometer"],
+    "answer": "Anemometer"
+  },
+  {
+    "page": 153,
+    "question": "Which type of drive is used when shafts are at right angles?",
+    "options": ["Belt drive", "Chain drive", "Bevel gear drive", "Spur gear drive"],
+    "answer": "Bevel gear drive"
+  },
+  {
+    "page": 154,
+    "question": "What is the function of a thermostat?",
+    "options": [
+      "Measure pressure",
+      "Control temperature",
+      "Increase current",
+      "Reduce voltage"
+    ],
+    "answer": "Control temperature"
+  },
+  {
+    "page": 155,
+    "question": "Which electrical component allows current in one direction only?",
+    "options": ["Resistor", "Capacitor", "Diode", "Inductor"],
+    "answer": "Diode"
+  },
+  {
+    "page": 156,
+    "question": "Which type of valve controls direction of flow?",
+    "options": [
+      "Relief valve",
+      "Flow control valve",
+      "Directional control valve",
+      "Pressure valve"
+    ],
+    "answer": "Directional control valve"
+  },
+  {
+    "page": 157,
+    "question": "Which unit is used to measure energy?",
+    "options": ["Watt", "Joule", "Newton", "Pascal"],
+    "answer": "Joule"
+  },
+  {
+    "page": 158,
+    "question": "What is the main purpose of a guard on machines?",
+    "options": [
+      "Improve speed",
+      "Prevent accidents",
+      "Reduce noise",
+      "Increase efficiency"
+    ],
+    "answer": "Prevent accidents"
+  },
+  {
+    "page": 159,
+    "question": "Which type of fire involves combustible metals?",
+    "options": ["Class A", "Class B", "Class C", "Class D"],
+    "answer": "Class D"
+  },
+  {
+    "page": 160,
+    "question": "Which measuring instrument is used to measure surface roughness?",
+    "options": [
+      "Surface roughness tester",
+      "Vernier caliper",
+      "Micrometer",
+      "Dial gauge"
+    ],
+    "answer": "Surface roughness tester"
+  },
+  {
+    "page": 161,
+    "question": "What is the purpose of a breather filter?",
+    "options": [
+      "Increase pressure",
+      "Allow clean air entry",
+      "Store oil",
+      "Reduce temperature"
+    ],
+    "answer": "Allow clean air entry"
+  }
+]
