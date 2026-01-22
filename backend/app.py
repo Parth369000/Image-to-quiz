@@ -15,8 +15,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Config
-UPLOAD_FOLDER = 'uploads'
-QUIZ_FOLDER = 'public/quizzes'
+UPLOAD_FOLDER = 'uploads'  # Local to backend
+QUIZ_FOLDER = '../frontend/public/quizzes'  # Shared with frontend
 
 # Load API Keys
 keys_str = os.getenv("GEMINI_API_KEYS", "")

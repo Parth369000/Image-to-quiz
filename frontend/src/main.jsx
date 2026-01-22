@@ -109,6 +109,10 @@ const QuizApp = ({ quizId, onBack }) => {
         }
     };
 
+    const handleExit = () => {
+        setShowResults(true);
+    };
+
     // Restore Result View
     if (showResults) {
         // Calculate Score
@@ -202,6 +206,13 @@ const QuizApp = ({ quizId, onBack }) => {
                 <button onClick={onBack} className="btn-text">← Back</button>
                 <span className="quiz-title-small">{quizData.quiz_title}</span>
                 <span className="progress">Q {currentQuestionIndex + 1} / {quizData.questions.length}</span>
+                <button 
+                    onClick={handleExit} 
+                    className="btn-text"
+                    style={{ color: '#ef4444' }}
+                >
+                    Exit
+                </button>
             </header>
 
             <main className="question-card">
