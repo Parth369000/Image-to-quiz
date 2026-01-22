@@ -210,6 +210,7 @@ body {
   margin-bottom: 16px;
   background: linear-gradient(135deg, #2563eb, #4f46e5);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -219,17 +220,69 @@ body {
   margin-bottom: 32px;
 }
 
-.upload-box {
+/* Upload Section */
+.upload-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.file-inputs-row {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.upload-card {
+  flex: 1;
+  border: 2px dashed var(--border);
+  border-radius: 12px;
+  transition: all 0.2s;
+  background: white;
+}
+
+.upload-card:hover {
+  border-color: var(--primary);
+  background: #f8fafc;
+}
+
+.upload-card.selected {
+  border-color: #10b981;
+  background: #ecfdf5;
+  border-style: solid;
+}
+
+.file-label {
+  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  cursor: pointer;
   gap: 12px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.label-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-light);
+  text-align: center;
+  word-break: break-word;
+}
+
+.upload-card.selected .label-text {
+  color: #059669;
 }
 
 .upload-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
   background: var(--primary);
   color: white;
@@ -240,6 +293,8 @@ body {
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  border: none;
+  width: 100%;
 }
 
 .upload-btn:hover {
@@ -374,4 +429,125 @@ body {
 
 .red-btn:hover {
   background: #fef2f2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #root {
+    padding: 16px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-section {
+    padding: 24px 0;
+  }
+
+  .question-card {
+    padding: 20px;
+  }
+
+  .question-text {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+    line-height: 1.5;
+  }
+
+  /* Adjust Header for mobile */
+  .quiz-header {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .quiz-title-small {
+    order: 3;
+    /* Move title to new line if needed, or keep in middle */
+    width: 100%;
+    margin-top: 8px;
+    text-align: center;
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  .btn-text {
+    font-size: 0.9rem;
+  }
+
+  .progress {
+    font-size: 0.9rem;
+  }
+
+  /* Make upload button full width */
+  .upload-box {
+    width: 100%;
+  }
+
+  .upload-section {
+    max-width: 100%;
+  }
+
+  .file-inputs-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .upload-card {
+    width: 100%;
+  }
+
+  .file-label {
+    padding: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .label-text {
+    text-align: left;
+    font-size: 0.95rem;
+  }
+
+  .upload-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 14px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+
+  /* Quiz Grid - Single column on small screens is automatic with minmax, 
+     but we can force simpler gaps */
+  .quiz-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
+
+  /* Options */
+  .option-btn {
+    padding: 14px;
+    gap: 12px;
+  }
+
+  .option-key {
+    width: 28px;
+    height: 28px;
+    font-size: 0.85rem;
+  }
+
+  .quiz-footer {
+    gap: 16px;
+  }
+
+  .btn {
+    flex: 1;
+    /* Make buttons share width mostly */
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.75rem;
+  }
 }

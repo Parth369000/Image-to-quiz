@@ -1,0 +1,25 @@
+{
+  "exam": "Canada Millwright",
+  "question_number": 1,
+  "question": "What is the number of teeth on drive gear (Input) if Driven gear (Output) has 90 teeth to maintain the speed ratio of 2:1?",
+  "options": [
+    {
+      "key": "1",
+      "text": "70 teeth"
+    },
+    {
+      "key": "2",
+      "text": "180 teeth"
+    },
+    {
+      "key": "3",
+      "text": "100 teeth"
+    },
+    {
+      "key": "4",
+      "text": "45 teeth"
+    }
+  ],
+  "source": "ocr_gemini_batched_v3",
+  "confidence": "high"
+}

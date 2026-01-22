@@ -18,11 +18,6 @@ venv/
 .venv/
 
 # Project specific
-uploads/
-*.pdf
-public/quiz_data.json
-final_output.json
-test_image.png
 
 # OS
 .DS_Store

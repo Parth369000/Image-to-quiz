@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Upload, FileText, ChevronRight, Clock, BookOpen, AlertCircle } from 'lucide-react';
+import { Upload, FileText, ChevronRight, Clock, BookOpen, AlertCircle, CheckCircle } from 'lucide-react';
 import './index.css';
 
 const API_URL = 'http://localhost:5000';
@@ -8,6 +8,10 @@ const HomePage = ({ onQuizSelect }) => {
     const [quizzes, setQuizzes] = useState([]);
     const [isUploading, setIsUploading] = useState(false);
     const [error, setError] = useState(null);
+
+    // New state for two files
+    const [questionsFile, setQuestionsFile] = useState(null);
+    const [answersFile, setAnswersFile] = useState(null);
 
     useEffect(() => {
         fetchQuizzes();
@@ -23,15 +27,26 @@ const HomePage = ({ onQuizSelect }) => {
         }
     };
 
-    const handleFileUpload = async (event) => {
+    const handleFileSelect = (type, event) => {
         const file = event.target.files[0];
         if (!file) return;
 
-        // Reset the input value so the same file can be selected again if needed
-        event.target.value = null;
-
         if (file.type !== 'application/pdf') {
-            setError("Please upload a PDF file.");
+            setError("Please upload PDF files only.");
+            return;
+        }
+
+        setError(null);
+        if (type === 'questions') setQuestionsFile(file);
+        if (type === 'answers') setAnswersFile(file);
+
+        // Reset input value to allow re-selecting same file if needed (though state handles it)
+        event.target.value = null;
+    };
+
+    const handleStartUpload = async () => {
+        if (!questionsFile || !answersFile) {
+            setError("Please select both Questions and Answers PDFs.");
             return;
         }
 
@@ -39,7 +54,8 @@ const HomePage = ({ onQuizSelect }) => {
         setError(null);
 
         const formData = new FormData();
-        formData.append('file', file);
+        formData.append('questions_file', questionsFile);
+        formData.append('answers_file', answersFile);
 
         try {
             const res = await fetch(`${API_URL}/upload`, {
@@ -47,15 +63,21 @@ const HomePage = ({ onQuizSelect }) => {
                 body: formData,
             });
 
-            if (!res.ok) throw new Error('Upload failed');
+            if (!res.ok) {
+                const errData = await res.json();
+                throw new Error(errData.error || 'Upload failed');
+            }
 
             const data = await res.json();
+
+            // Clear selections
+            setQuestionsFile(null);
+            setAnswersFile(null);
+
             // Refresh list
             fetchQuizzes();
-            // Auto start? or just show in list
-            // onQuizSelect(data.quiz_id); // Optional: auto open
         } catch (err) {
-            setError("Failed to upload and process PDF. Try again.");
+            setError(err.message || "Failed to process PDFs. Try again.");
         } finally {
             setIsUploading(false);
         }
@@ -64,26 +86,69 @@ const HomePage = ({ onQuizSelect }) => {
     return (
         <div className="home-container">
             <header className="hero-section">
-                <h1 className="hero-title">PDF to Quiz Engine</h1>
-                <p className="hero-subtitle">Upload any exam PDF and instantly get a practice quiz.</p>
+                <h1 className="hero-title">PDF Quiz Generator</h1>
+                <p className="hero-subtitle">Upload Questions and Answers PDFs separately to generate a quiz.</p>
 
-                <div className="upload-box">
-                    <input
-                        type="file"
-                        id="pdf-upload"
-                        accept=".pdf"
-                        onChange={handleFileUpload}
-                        disabled={isUploading}
-                        style={{ display: 'none' }}
-                    />
-                    <label htmlFor="pdf-upload" className={`upload-btn ${isUploading ? 'disabled' : ''}`}>
+                <div className="upload-section">
+                    <div className="file-inputs-row">
+                        {/* Questions Upload */}
+                        <div className={`upload-card ${questionsFile ? 'selected' : ''}`}>
+                            <input
+                                type="file"
+                                id="questions-upload"
+                                accept=".pdf"
+                                onChange={(e) => handleFileSelect('questions', e)}
+                                disabled={isUploading}
+                                style={{ display: 'none' }}
+                            />
+                            <label htmlFor="questions-upload" className="file-label">
+                                {questionsFile ? (
+                                    <CheckCircle size={32} color="#10b981" />
+                                ) : (
+                                    <FileText size={32} color="#64748b" />
+                                )}
+                                <span className="label-text">
+                                    {questionsFile ? questionsFile.name : "Select Questions PDF"}
+                                </span>
+                            </label>
+                        </div>
+
+                        {/* Answers Upload */}
+                        <div className={`upload-card ${answersFile ? 'selected' : ''}`}>
+                            <input
+                                type="file"
+                                id="answers-upload"
+                                accept=".pdf"
+                                onChange={(e) => handleFileSelect('answers', e)}
+                                disabled={isUploading}
+                                style={{ display: 'none' }}
+                            />
+                            <label htmlFor="answers-upload" className="file-label">
+                                {answersFile ? (
+                                    <CheckCircle size={32} color="#10b981" />
+                                ) : (
+                                    <FileText size={32} color="#64748b" />
+                                )}
+                                <span className="label-text">
+                                    {answersFile ? answersFile.name : "Select Answers PDF"}
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button
+                        className={`upload-btn ${isUploading || !questionsFile || !answersFile ? 'disabled' : ''}`}
+                        onClick={handleStartUpload}
+                        disabled={isUploading || !questionsFile || !answersFile}
+                    >
                         {isUploading ? (
                             <span className="spinner"></span>
                         ) : (
                             <Upload size={24} />
                         )}
-                        {isUploading ? "Analysing PDF with Gemini..." : "Upload New PDF Exam"}
-                    </label>
+                        {isUploading ? "Generating Quiz..." : "Generate Quiz"}
+                    </button>
+
                     {error && <div className="error-msg"><AlertCircle size={16} /> {error}</div>}
                 </div>
             </header>
@@ -93,7 +158,7 @@ const HomePage = ({ onQuizSelect }) => {
 
                 {quizzes.length === 0 ? (
                     <div className="empty-state">
-                        <p>No quizzes found. Upload a PDF to get started!</p>
+                        <p>No quizzes found. Upload PDFs above to get started!</p>
                     </div>
                 ) : (
                     <div className="quiz-grid">

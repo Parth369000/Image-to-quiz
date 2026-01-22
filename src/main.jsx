@@ -50,18 +50,76 @@ const QuizApp = ({ quizId, onBack }) => {
     };
 
     if (showResults) {
+        // Calculate Score
+        let score = 0;
+        let attempted = 0;
+        quizData.questions.forEach(q => {
+            if (selectedOptions[q.id]) {
+                attempted++;
+                if (selectedOptions[q.id] === q.correct_answer) {
+                    score++;
+                }
+            }
+        });
+
+        const percentage = Math.round((score / totalQuestions) * 100);
+
         return (
             <div className="container">
-                <h1>Quiz Complete!</h1>
-                <p>You answered {Object.keys(selectedOptions).length} out of {totalQuestions} questions.</p>
-                <div className="actions">
-                    <button onClick={onBack} className="btn secondary red-btn">Back to Home</button>
-                    <button onClick={() => window.location.reload()} className="btn primary">Restart</button>
+                <header className="quiz-header">
+                    <h1>Quiz Results</h1>
+                </header>
+
+                <div className="score-card" style={{ textAlign: 'center', padding: '40px 0' }}>
+                    <div style={{ fontSize: '4rem', fontWeight: '800', color: percentage >= 70 ? '#10b981' : '#f59e0b' }}>
+                        {percentage}%
+                    </div>
+                    <p style={{ fontSize: '1.2rem', color: '#64748b' }}>
+                        You scored {score} out of {totalQuestions}
+                    </p>
+                </div>
+
+                <div className="actions" style={{ justifyContent: 'center', marginBottom: '40px' }}>
+                    <button onClick={onBack} className="btn secondary">Back to Home</button>
+                    <button onClick={() => window.location.reload()} className="btn primary">Restart Quiz</button>
                 </div>
 
                 <div className="review-section">
-                    <h2>Your Answers:</h2>
-                    <pre>{JSON.stringify(selectedOptions, null, 2)}</pre>
+                    <h2>Review Answers</h2>
+                    <div className="review-list" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        {quizData.questions.map((q, index) => {
+                            const userAns = selectedOptions[q.id];
+                            const isCorrect = userAns === q.correct_answer;
+                            const isSkipped = !userAns;
+
+                            return (
+                                <div key={q.id} className="review-item" style={{
+                                    border: '1px solid #e2e8f0',
+                                    borderRadius: '12px',
+                                    padding: '20px',
+                                    borderLeft: `4px solid ${isCorrect ? '#10b981' : (isSkipped ? '#94a3b8' : '#ef4444')}`,
+                                    background: 'white'
+                                }}>
+                                    <div style={{ fontWeight: '600', marginBottom: '12px' }}>
+                                        {index + 1}. {q.question}
+                                    </div>
+                                    <div style={{ fontSize: '0.9rem', color: '#64748b' }}>
+                                        Your Answer: <span style={{
+                                            fontWeight: 'bold',
+                                            color: isCorrect ? '#10b981' : '#ef4444'
+                                        }}>
+                                            {userAns ? `Option ${userAns}` : 'Skipped'}
+                                        </span>
+                                        {!isCorrect && q.correct_answer && (
+                                            <span style={{ marginLeft: '12px', color: '#10b981' }}>
+                                                (Correct: Option {q.correct_answer})
+                                            </span>
+                                        )}
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
                 </div>
             </div>
         );
