@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Upload, FileText, ChevronRight, Clock, BookOpen, AlertCircle, CheckCircle } from 'lucide-react';
 import './index.css';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || '';
 
 const HomePage = ({ onQuizSelect }) => {
     const [quizzes, setQuizzes] = useState([]);
